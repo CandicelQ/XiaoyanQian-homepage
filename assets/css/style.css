@@ -43,7 +43,7 @@ a:hover { text-decoration: underline; }
 .site-name:hover .site-name-main { color: var(--accent); }
 .site-role { font-size: 0.74rem; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent); font-weight: 700; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: block; margin-top: 5px; }
 .site-nav { display: flex; width: 100%; }
-.site-nav a { flex: 1 1 0; text-align: center; position: relative; color: var(--muted); font-size: 1rem; padding: 0.2rem 0.4rem 0.85rem; }
+.site-nav a { flex: 1 1 0; text-align: center; position: relative; white-space: nowrap; color: var(--muted); font-size: 1rem; padding: 0.2rem 0.4rem 0.85rem; }
 .site-nav a:hover { color: var(--ink); text-decoration: none; }
 .site-nav a.active { color: var(--accent); font-weight: 600; }
 .site-nav a.active::after { content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; width: 1.5em; height: 2px; background: var(--accent); border-radius: 1px; }
