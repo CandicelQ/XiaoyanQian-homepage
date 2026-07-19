@@ -11,6 +11,9 @@ collections:
   artifacts:
     output: true
     permalink: /artifacts/:name/
+  notes:
+    output: true
+    permalink: /notes/:name/
 
 defaults:
   - scope:
@@ -27,5 +30,10 @@ defaults:
       type: artifacts
     values:
       layout: artifact
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
 
 markdown: kramdown

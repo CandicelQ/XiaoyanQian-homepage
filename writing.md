@@ -49,11 +49,6 @@ The end state this program works toward is a prospectively evaluated, clinically
 
 ## Shorter governance writing
 
-Occasional public notes that translate one governance idea at a time, for example:
+I publish short [governance notes]({{ '/notes/' | relative_url }}) that take one technical question at a time and translate it into governance language: what the risk is, who is accountable, and how it would actually be deployed. New notes are added regularly, drawn from my daily practice of turning technical work into governance reasoning.
 
-- Why the reliability of medical AI is not the same as model accuracy
-- What an AI audit should actually audit
-- When an AI-generated draft becomes a legal medical record
-- Why "who is responsible when medical AI fails" is hard to answer, and how RACI, risk registers, and decision rights make it answerable
-
-<p class="muted">Selected notes will appear here as they are published.</p>
+<p class="muted">Recent topics: reliability versus accuracy, what an AI audit should audit, when an AI-generated draft becomes a legal medical record. See all in <a href="{{ '/notes/' | relative_url }}">Notes</a>.</p>
