@@ -6,12 +6,14 @@ title: Home
 <div class="hero">
   <div class="hero-text">
     <h1>Xiaoyan Qian</h1>
-    <p class="tagline">Medical AI Governance and Regulatory Science</p>
+    <p class="tagline"><span class="role">AI R&amp;D Manager</span><span class="sep">|</span><span class="role">AI PhD</span><span class="sep">|</span><span class="role">Medical AI &amp; AI Governance</span><span class="sep">|</span><span class="role">High-Risk AI Deployment</span></p>
     <p class="lede">
-      I work at the intersection of medical AI, clinical deployment, and governance.
-      My goal is to translate the technical risks of AI systems in healthcare into
-      executable governance frameworks, audit evidence, and accountability structures,
-      and to translate governance goals back into engineering requirements.
+      I create AI technical prototypes, and I translate them into governance-ready,
+      stakeholder-facing, and deployment-oriented systems. That second step is the
+      scarce one: turning the technical risks of a system I have built into executable
+      governance frameworks, audit evidence, and accountability structures, and
+      translating governance goals back into engineering requirements. I do this for
+      high-risk AI in medical and regulatory settings.
     </p>
   </div>
   <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan Qian">
@@ -29,7 +31,7 @@ I now build both sides of that bridge. On the research side, my work argues that
   <li class="card">
     <p class="badge badge-project">Project-derived</p>
     <h3>Medical Digital Twin: Build and Govern</h3>
-    <p>My main project. I lead both the engineering of a patient-facing medical digital twin, including its 3D visualization pipeline, and its pre-deployment governance design: intended use, decision rights, risk ownership, deployment readiness. Sanitized.</p>
+    <p>Both layers on one system. I build the patient-facing medical digital twin, including its 3D visualization pipeline, and I translate it into a governance-ready system: intended use, decision rights, risk ownership, deployment readiness. Sanitized.</p>
     <a href="{{ '/portfolio/' | relative_url }}#projects">View project →</a>
   </li>
   <li class="card">
@@ -41,7 +43,7 @@ I now build both sides of that bridge. On the research side, my work argues that
   <li class="card">
     <p class="badge badge-published">Research</p>
     <h3>Accountable Patient-facing Interpretation</h3>
-    <p>A research program anchored by a Viewpoint manuscript: a five-layer accountability map and a Grade 0 to 4 maturity framework for conversational medical digital twins.</p>
+    <p>A governance research program anchored by a Viewpoint manuscript, building on first-author work at AAAI and IJCV: a five-layer accountability map and a Grade 0 to 4 maturity framework for conversational medical digital twins.</p>
     <a href="{{ '/writing/' | relative_url }}">Read more →</a>
   </li>
 </ul>
