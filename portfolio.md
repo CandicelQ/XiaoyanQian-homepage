@@ -39,6 +39,7 @@ This is my main project. At a joint university-industry AI laboratory at HKU, I 
 - **Risk ownership design**: an early-stage risk register separating risk identification, control ownership, risk ownership, and risk acceptance authority, so that residual risk is accepted by people with the authority and resources to manage it.
 - **Operating instruments**: stakeholder map, RACI matrix, decision memo template, data-readiness checklist, contribution and artifact registers, phase-transition and commercialisation-trigger clauses, and authorship and acknowledgement principles.
 - **Deployment-readiness criteria**: validation evidence, subgroup performance, human oversight design, monitoring plans, and escalation pathways required before patient-facing use.
+- **Operational handoff**: transition and handover planning so the system can be run by an operating team rather than its builder, covering ownership of monitoring, incident response, change control, and the human-in-the-loop controls that must survive after handoff.
 
 *This is a project-derived pre-deployment governance case. It is not presented as a live deployment or post-market case, and the public version is sanitized.*
 

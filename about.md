@@ -26,6 +26,7 @@ That boundary is now where I choose to stand. I understand the capability limits
 - **Technical risk literacy**: validation and external validation, calibration, subgroup performance, model drift, LLM failure modes, human-in-the-loop failure, post-market monitoring.
 - **Clinical workflow literacy**: where an AI output enters a care pathway, who acts on it, what over-reliance looks like, and when escalation to a clinician is mandatory.
 - **Audit evidence literacy**: risk registers, model cards, validation reports, incident logs, change control plans, override logs, monitoring reports.
+- **Operational handoff literacy**: designing governed AI workflows with human-in-the-loop controls, auditability, and a transition plan so a system can be owned and run by an operating team, not just its builder.
 - **Policy writing**: turning all of the above into language that hospital leadership, regulators, and legal teams can act on.
 
 ## Where I am going
