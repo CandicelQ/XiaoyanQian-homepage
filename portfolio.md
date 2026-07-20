@@ -44,6 +44,7 @@ Scenario-based governance cases built on realistic deployment patterns and publi
 (FDA AI-enabled device guidance and PCCP, WHO guidance on AI for health, NIST AI RMF, ISO/IEC 42001, Hong Kong TR-008).
 Each case works through problem, stakeholders, key risks, governance mechanism, RACI, audit evidence, and an explicit
 post-market decision state: Approve, Conditional approval, Clinical review, or Reject.
+The common structure is deliberate: it is designed to be teachable, so each case doubles as a training exercise for building governance judgement in others.
 </p>
 
 <p class="section-intro"><strong>Start here:</strong> <a href="{{ '/cases/model-drift/' | relative_url }}">Medical AI Model Drift in Clinical Deployment</a> is the flagship case. It pairs directly with the two published artifacts below (monitoring table and risk register), showing one governance problem end to end: detect the drift, own it, decide what to do.</p>

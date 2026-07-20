@@ -7,7 +7,7 @@ permalink: /notes/
 # Notes
 
 <p class="section-intro">
-Short governance notes. Each one takes a single technical question and translates it into governance language: what the risk is, who is accountable, and how it would actually be deployed. This is my daily practice of turning technical work into governance reasoning, made public.
+Short governance notes. Each one takes a single technical question and translates it into governance language: what the risk is, who is accountable, and how it would actually be deployed. Each note is written to teach one idea clearly, turning technical work into governance reasoning that others can follow and reuse.
 </p>
 
 <ul class="note-list">
