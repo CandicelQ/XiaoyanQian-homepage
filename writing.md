@@ -15,9 +15,10 @@ Full publication list: <a href="https://scholar.google.com/citations?user=XNdT5E
 </p>
 
 ## Anchor: accountable patient-facing interpretation
-<p class="badge badge-published">Lancet Digital Health Viewpoint manuscript · submitted</p>
+<p class="badge badge-published">Lancet Digital Health Viewpoint · submitted</p>
 
-**Beyond digital replicas: accountable patient-facing interpretation for medical digital twins.**
+**Beyond digital replicas: accountable patient-facing interpretation in conversational medical digital twins.**
+
 
 Medical digital twins are showing clinical value, but mostly in tightly bounded, expert-facing settings. This Viewpoint argues that the next frontier is not fuller anatomical replication but accountable patient-facing interpretation: what a system can responsibly explain, refuse, escalate, and audit when patients see the output. It contributes two tools:
 
