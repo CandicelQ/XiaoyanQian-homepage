@@ -58,7 +58,7 @@ body.home .site-name { display: none; }
 .hero .tagline .sep { color: var(--line); }
 .hero-body { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
 .hero-body .lede { flex: 1 1 24em; font-size: 1.05rem; color: var(--ink); max-width: 46em; margin: 0; }
-.hero-body .portrait { width: 190px; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+.hero-body .portrait { width: 190px; height: auto; border-radius: 12px; }
 
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; }
