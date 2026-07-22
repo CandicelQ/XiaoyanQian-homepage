@@ -65,6 +65,13 @@ body.home .site-name { display: none; }
 .role-wording-title { margin: 0 0 0.35rem; font-weight: 700; color: var(--ink); font-size: 1.02rem; }
 .role-wording-desc { margin: 0; color: var(--muted); font-size: 0.94rem; }
 
+/* Copy-paste bio block */
+.copy-bio { border: 1px solid var(--line); border-radius: 8px; padding: 0.9rem 1.1rem; margin: 1.2rem 0 1.6rem; background: #fbfcfd; }
+.copy-bio-label { margin: 0 0 0.4rem; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
+.copy-bio-text { margin: 0 0 0.7rem; font-size: 0.95rem; color: var(--ink); }
+.copy-bio-btn { font-size: 0.82rem; font-weight: 600; color: var(--accent); background: var(--accent-light); border: none; border-radius: 5px; padding: 0.3rem 0.7rem; cursor: pointer; }
+.copy-bio-btn:hover { background: var(--accent); color: #fff; }
+
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; }
 .card { border: 1px solid var(--line); border-radius: 8px; padding: 1.1rem 1.2rem; background: #fbfcfd; }
