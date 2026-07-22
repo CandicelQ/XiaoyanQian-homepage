@@ -33,6 +33,8 @@ That boundary is now where I choose to stand. I understand the capability limits
 
 My aim is to work where medical AI meets rules: research on health AI governance and regulatory science, governance and responsible AI roles in health systems and industry, and, over time, policy-facing and standards-facing work. If you are building or overseeing patient-facing medical AI and want a governance perspective grounded in real system-building, I would like to hear from you.
 
+I am currently looking for: (1) senior collaborators willing to co-author or advise on the governance research line, and (2) opportunities to pilot governance instruments with real medical AI deployments.
+
 ## Contact
 
 Email: <a href="mailto:qianxy10@connect.hku.hk">qianxy10@connect.hku.hk</a> · <a href="mailto:xyqian@eee.hku.hk">xyqian@eee.hku.hk</a> · <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a> · <a href="https://www.linkedin.com/in/xiaoyan-qian-b2256b88/">LinkedIn</a>
