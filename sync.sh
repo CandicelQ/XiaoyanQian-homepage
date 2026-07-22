@@ -38,4 +38,4 @@ done
 
 echo ""
 echo "Done. Live in ~1-2 min at:"
-echo "  https://xiaoyanqian.github.io/XiaoyanQian-homepage/"
+echo "  https://xiaoyanqian.github.io/"
