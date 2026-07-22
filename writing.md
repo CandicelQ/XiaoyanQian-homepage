@@ -8,14 +8,14 @@ permalink: /writing/
 
 <p class="section-intro">
 My research program asks one question: when a medical AI system speaks to patients about their own bodies,
-what makes that voice accountable? The program is sequenced: an anchor manuscript frames the problem (submitted),
+what makes that voice accountable? The program is sequenced: an anchor manuscript frames the problem (in preparation),
 an ethics line and a technical line extend it (next and planned), and the long-term goal is a clinically deployed,
 governed patient-facing twin. Publication status is stated honestly for every item.
 Full publication list: <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a>.
 </p>
 
 ## Anchor: accountable patient-facing interpretation
-<p class="badge badge-published">Lancet Digital Health Viewpoint · submitted</p>
+<p class="badge badge-published">Viewpoint · in preparation, targeting Lancet Digital Health</p>
 
 **Beyond digital replicas: clinical governance for patient-facing conversational digital twins**
 
