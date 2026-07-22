@@ -60,6 +60,11 @@ body.home .site-name { display: none; }
 .hero-body .lede { flex: 1 1 24em; font-size: 1.05rem; color: var(--ink); max-width: 46em; margin: 0; }
 .hero-body .portrait { width: 190px; height: auto; border-radius: 12px; }
 
+/* Role wording (CV-style current-focus line) */
+.role-wording { border-left: 3px solid var(--accent); background: var(--accent-light); padding: 0.9rem 1.2rem; margin: 0 0 2rem; border-radius: 0 6px 6px 0; }
+.role-wording-title { margin: 0 0 0.35rem; font-weight: 700; color: var(--ink); font-size: 1.02rem; }
+.role-wording-desc { margin: 0; color: var(--muted); font-size: 0.94rem; }
+
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; }
 .card { border: 1px solid var(--line); border-radius: 8px; padding: 1.1rem 1.2rem; background: #fbfcfd; }

@@ -19,6 +19,11 @@ title: Home
   </div>
 </div>
 
+<div class="role-wording">
+  <p class="role-wording-title">Current focus: Medical Digital Twin Initiative — AI Prototyping and Governance Framing</p>
+  <p class="role-wording-desc">Leading technical prototyping, project coordination, and governance-oriented deployment readiness work, including stakeholder mapping, clinical-risk considerations, and responsible AI documentation.</p>
+</div>
+
 ## Who I am
 
 I am an AI researcher (PhD, The University of Hong Kong) and R&D manager leading the development of a patient-facing medical digital twin at a joint university-industry AI laboratory at HKU. I came to governance from the builder's side: I design and train the models, coordinate the stakeholders, and prepare the deployment plans. That position taught me that the hardest questions in medical AI are not about model accuracy. They are about intended use, validation evidence, responsibility boundaries, escalation authority, and what happens after deployment when the model quietly degrades.
