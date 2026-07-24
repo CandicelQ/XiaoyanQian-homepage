@@ -5,22 +5,24 @@ title: Home
 
 <div class="hero">
   <h1>Xiaoyan Qian</h1>
-  <p class="tagline"><span class="role">AI R&amp;D Manager</span><span class="sep">|</span><span class="role">AI PhD</span><span class="sep">|</span><span class="role">Medical AI &amp; AI Governance</span><span class="sep">|</span><span class="role">High-Risk AI Deployment</span></p>
+  <p class="tagline"><span class="role">Medical AI Governance</span><span class="sep">&times;</span><span class="role">High-Risk AI Deployment</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
+  <p class="credential">AI PhD, The University of Hong Kong &middot; R&amp;D Manager, patient-facing medical digital twin</p>
   <div class="hero-body">
     <p class="lede">
-      I create AI technical prototypes, and I translate them into governance-ready,
-      stakeholder-facing, and deployment-oriented systems. That second step is the
-      scarce one: turning the technical risks of a system I have built into executable
-      governance frameworks, audit evidence, and accountability structures, and
-      translating governance goals back into engineering requirements. I do this for
-      high-risk AI in medical and regulatory settings.
+      In high-risk medical AI, the deciding questions come after the model works: who
+      is accountable, what a patient is owed, who can override it. I build these
+      systems and the governance they need to reach a patient: one person doing what
+      usually takes two. In practice that means executable governance frameworks,
+      audit evidence, accountability structures, and regulatory-risk language a
+      hospital, regulator, or legal team can act on, and I translate governance goals
+      back into requirements a team can build against.
     </p>
     <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan Qian">
   </div>
 </div>
 
 <div class="role-wording">
-  <p class="role-wording-title">Current focus: Medical Digital Twin Initiative — AI Prototyping and Governance Framing</p>
+  <p class="role-wording-title">Current focus: Medical Digital Twin Initiative, AI Prototyping and Governance Framing</p>
   <p class="role-wording-desc">Leading technical prototyping, project coordination, and governance-oriented deployment readiness work, including stakeholder mapping, clinical-risk considerations, and responsible AI documentation.</p>
 </div>
 

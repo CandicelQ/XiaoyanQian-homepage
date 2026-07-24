@@ -51,26 +51,14 @@ a:hover { text-decoration: underline; }
 body.home .site-name { display: none; }
 
 /* Hero */
-.hero { padding: 2.8rem 0 1.4rem; }
+.hero { padding: 2.8rem 0 1.4rem; display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
+.hero-text { flex: 1 1 24em; }
+.hero .portrait { width: 190px; height: auto; border-radius: 12px; border: 1px solid var(--line); }
 .hero h1 { font-size: 2.2rem; margin: 0 0 0.4rem; }
-.hero .tagline { font-size: 1.2rem; color: var(--accent); font-family: Georgia, serif; margin: 0 0 1.3rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.55rem; }
-.hero .tagline .role { white-space: nowrap; }
-.hero .tagline .sep { color: var(--line); }
-.hero-body { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
-.hero-body .lede { flex: 1 1 24em; font-size: 1.05rem; color: var(--ink); max-width: 46em; margin: 0; }
-.hero-body .portrait { width: 190px; height: auto; border-radius: 12px; }
-
-/* Role wording (CV-style current-focus line) */
-.role-wording { border-left: 3px solid var(--accent); background: var(--accent-light); padding: 0.9rem 1.2rem; margin: 0 0 2rem; border-radius: 0 6px 6px 0; }
-.role-wording-title { margin: 0 0 0.35rem; font-weight: 700; color: var(--ink); font-size: 1.02rem; }
-.role-wording-desc { margin: 0; color: var(--muted); font-size: 0.94rem; }
-
-/* Copy-paste bio block */
-.copy-bio { border: 1px solid var(--line); border-radius: 8px; padding: 0.9rem 1.1rem; margin: 1.2rem 0 1.6rem; background: #fbfcfd; }
-.copy-bio-label { margin: 0 0 0.4rem; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
-.copy-bio-text { margin: 0 0 0.7rem; font-size: 0.95rem; color: var(--ink); }
-.copy-bio-btn { font-size: 0.82rem; font-weight: 600; color: var(--accent); background: var(--accent-light); border: none; border-radius: 5px; padding: 0.3rem 0.7rem; cursor: pointer; }
-.copy-bio-btn:hover { background: var(--accent); color: #fff; }
+.hero .tagline { font-size: 1.2rem; color: var(--accent); font-family: Georgia, serif; margin: 0 0 0.35rem; }
+.hero .tagline .sep { color: var(--muted); margin: 0 0.45rem; font-weight: 400; }
+.hero .credential { font-size: 0.9rem; color: var(--muted); margin: 0 0 1.1rem; }
+.hero .lede { font-size: 1.05rem; color: var(--ink); max-width: 46em; }
 
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; }
@@ -124,15 +112,9 @@ th { background: var(--accent-light); font-weight: 600; }
 .muted { color: var(--muted); }
 .section-intro { color: var(--muted); max-width: 46em; }
 
-/* AI-SaMD readiness coverage list */
-.readiness-list { max-width: 46em; margin: 0 0 1.4rem; padding-left: 1.1rem; }
-.readiness-list li { margin: 0.3rem 0; font-size: 0.95rem; }
-.readiness-list strong { color: var(--ink); }
-
 @media (max-width: 600px) {
   .site-nav { flex-wrap: wrap; }
   .site-nav a { flex: 0 0 auto; text-align: left; margin-right: 1.3rem; padding-bottom: 0.5rem; font-size: 0.95rem; }
   .site-nav a.active::after { left: 0; transform: none; }
   .hero h1 { font-size: 1.7rem; }
-  .hero .tagline { font-size: 1rem; gap: 0.1rem 0.45rem; }
 }
