@@ -12,10 +12,12 @@ title: Home
       In high-risk medical AI, the deciding questions come after the model works: who
       is accountable, what a patient is owed, who can override it. I build these
       systems and the governance they need to reach a patient: one person doing what
-      usually takes two. In practice that means executable governance frameworks,
-      audit evidence, accountability structures, and regulatory-risk language a
-      hospital, regulator, or legal team can act on, and I translate governance goals
-      back into requirements a team can build against.
+      usually takes two. What I build is the connective tissue a clinical, ethics, and
+      legal team needs to govern together, the shared scaffolding most projects
+      under-resource. In practice that means executable governance frameworks, audit
+      evidence, accountability structures, and regulatory-risk language a hospital,
+      regulator, or legal team can act on, and I translate governance goals back into
+      requirements a team can build against.
     </p>
     <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan Qian">
   </div>
@@ -48,7 +50,7 @@ I am an AI researcher (PhD, The University of Hong Kong) and R&D manager leading
   <li class="card">
     <p class="badge badge-published">Research</p>
     <h3>Accountable Patient-facing Interpretation</h3>
-    <p>A governance research program anchored by a Viewpoint manuscript, building on first-author work at AAAI and IJCV: a five-layer accountability map and a Grade 0 to 4 maturity framework for conversational medical digital twins.</p>
+    <p>A governance research program anchored by a Viewpoint manuscript, building on first-author work at AAAI and IJCV: a five-layer accountability map, a Grade 0 to 4 maturity framework, and a named consent harm, unmarked domain-crossing, where a system slides from monitoring to inference with no signal a line was crossed.</p>
     <a href="{{ '/writing/' | relative_url }}">Read more →</a>
   </li>
 </ul>
