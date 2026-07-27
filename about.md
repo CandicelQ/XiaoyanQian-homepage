@@ -41,4 +41,6 @@ I am currently looking for: (1) senior collaborators willing to co-author or adv
 
 ## Contact
 
-Email: <a href="mailto:qianxy10@connect.hku.hk">qianxy10@connect.hku.hk</a> · <a href="mailto:xyqian@eee.hku.hk">xyqian@eee.hku.hk</a> · <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a> · <a href="https://www.linkedin.com/in/xiaoyan-qian-b2256b88/">LinkedIn</a>
+Email: <a href="mailto:qianxy10@connect.hku.hk">qianxy10@connect.hku.hk</a> · <a href="mailto:xyqian@eee.hku.hk">xyqian@eee.hku.hk</a>
+
+Profiles: <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a> · <a href="https://www.linkedin.com/in/xiaoyan-qian-b2256b88/">LinkedIn</a> · <a href="https://orcid.org/0000-0003-4426-0667">ORCID</a>
