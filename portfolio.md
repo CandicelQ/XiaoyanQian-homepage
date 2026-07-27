@@ -7,7 +7,11 @@ permalink: /portfolio/
 # Governance Portfolio
 
 <p class="section-intro">
-A curated, sanitized selection of governance work. Each item is labelled by evidence type:
+Most medical AI governance arrives too late: as documentation produced after the model works, once the decisions that actually matter have been made by default. I work the other way. Governance here is treated as a design constraint built alongside the system, and every item is held to one test: does each claim a system makes have an owner, a check, and an audit trail, or is it only a promise? A control without those is an opinion, not governance.
+</p>
+
+<p class="section-intro">
+A curated, sanitized selection follows, each item labelled by evidence type:
 <span class="badge badge-project">Project-derived</span>
 <span class="badge badge-scenario">Scenario-based</span>
 <span class="badge badge-published">Published writing</span>.
