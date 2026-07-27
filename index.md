@@ -30,7 +30,7 @@ title: Home
 
 ## Who I am
 
-I came to governance from the builder's side: at the HKU-Avnet Joint AI Laboratory I lead both the engineering of a patient-facing medical digital twin and the governance it needs, deciding not only how it works but what it may claim and who answers for it. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
+I came to governance from the builder's side: at the HKU-Avnet Joint AI Laboratory I build a patient-facing medical digital twin, and govern what it may claim and who answers for it. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
 
 ## Start here
 
