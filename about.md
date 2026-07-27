@@ -33,6 +33,8 @@ That boundary is now where I choose to stand. I understand the capability limits
 
 My aim is to work where medical AI meets rules: research on health AI governance and regulatory science, governance and responsible AI roles in health systems and industry, and, over time, policy-facing and standards-facing work. If you are building or overseeing patient-facing medical AI and want a governance perspective grounded in real system-building, I would like to hear from you.
 
+The core of that work is patient-facing, but the governance questions do not stop at the individual. As frontier AI moves into areas like biosecurity, the same discipline has to protect people who are nowhere near the system, which changes which safeguards count. I read that boundary from the side I know, for example in a note on [dual-use and the geometry of accountability]({{ '/notes/2026-07-27-dual-use-is-a-different-governance-geometry/' | relative_url }}).
+
 I am currently looking for: (1) senior collaborators willing to co-author or advise on the governance research line, and (2) opportunities to pilot governance instruments with real medical AI deployments.
 
 ## Contact
