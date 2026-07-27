@@ -11,7 +11,7 @@ Most medical AI risk work is built around clinical failure: false negatives, sub
 
 The design point is the same as a risk register: no dependency exists without an owner, a fallback, and a review trigger. A dependency that exists only as a working credential, with no owner and no fallback, is an unmanaged risk, not an implementation detail.
 
-This artifact is drawn from the governance pack (v0.1) of the patient-facing medical digital twin I am building at a joint university-industry AI laboratory at HKU. It is sanitized: no vendor names, contract terms, or confidential architecture detail are included. The dependencies are described at the level of function and category, and the register rows are an illustrative pre-deployment worked example used to exercise the structure, not a live production inventory.
+This artifact is drawn from the governance pack (v0.1) of the patient-facing medical digital twin I am building at the HKU-Avnet Joint AI Laboratory. It is sanitized: no vendor names, contract terms, or confidential architecture detail are included. The dependencies are described at the level of function and category, and the register rows are an illustrative pre-deployment worked example used to exercise the structure, not a live production inventory.
 
 ## Why I built this (builder's perspective)
 

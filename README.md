@@ -38,7 +38,7 @@ git push -u origin main
 
 - [ ] `index.md` 和 `about.md` 里的 email / LinkedIn / GitHub 链接（现在是 `your.email@example.com` 占位）。
 - [ ] `writing.md` 里 Viewpoint 的状态标签（`status: update here`），按真实投稿状态写：in preparation / under review / accepted。**审稿人可能看到这个页面，状态绝不能超前于事实。**
-- [ ] 确认对外是否可以提及合作 lab 的名称。目前全站统一写 "a joint university-industry AI laboratory at HKU"（不点名），这是脱敏默认；如获许可再点名。
+- [x] 合作 lab 名称已获准对外具名：全站统一写 "HKU-Avnet Joint AI Laboratory"（LinkedIn 亦公开此名）；头衔 "Lead, HKU-Avnet Joint AI Lab"。
 
 ## 日常维护（你的 casebook 工作流）
 

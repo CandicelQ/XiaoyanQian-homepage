@@ -8,7 +8,7 @@ permalink: /about/
 
 ## The short version
 
-I build AI prototypes and translate them into the governance a hospital, a regulator, and a legal team can each act on, for high-risk medical and regulatory contexts. I am an AI PhD (The University of Hong Kong) and R&D manager working on medical AI. I lead the technical development and governance framing of a patient-facing medical digital twin at a joint university-industry AI laboratory at HKU, covering model design, cross-party coordination, deployment planning, clinical risk considerations, and responsible AI documentation.
+I build AI prototypes and translate them into the governance a hospital, a regulator, and a legal team can each act on, for high-risk medical and regulatory contexts. I am an AI PhD (The University of Hong Kong) and lead of the HKU-Avnet Joint AI Laboratory, where I drive the technical development and governance framing of a patient-facing medical digital twin, covering model design, cross-party coordination, deployment planning, clinical risk considerations, and responsible AI documentation.
 
 ## Following technology into governance
 
@@ -30,6 +30,8 @@ That boundary is now where I choose to stand. I understand the capability limits
 - **Policy writing**: turning all of the above into language that hospital leadership, regulators, and legal teams can act on.
 
 ## Where I am going
+
+The conviction under all of it is easy to say and hard to deliver: advanced AI should be governed where it actually operates, in real applications, not only in policy documents. I work to make responsible governance something a deployed system does, not something a paper promises, and I work at it from the side that builds.
 
 My aim is to work where medical AI meets rules: research on health AI governance and regulatory science, governance and responsible AI roles in health systems and industry, and, over time, policy-facing and standards-facing work. If you are building or overseeing patient-facing medical AI and want a governance perspective grounded in real system-building, I would like to hear from you.
 

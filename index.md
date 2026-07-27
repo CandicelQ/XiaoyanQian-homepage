@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <h1>Xiaoyan Qian</h1>
   <p class="tagline"><span class="role">Medical AI Governance</span><span class="sep">&times;</span><span class="role">High-Risk AI Deployment</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
-  <p class="credential">AI PhD, The University of Hong Kong &middot; R&amp;D Manager, patient-facing medical digital twin</p>
+  <p class="credential">AI PhD, The University of Hong Kong &middot; Lead, HKU-Avnet Joint AI Lab</p>
   <div class="hero-body">
     <p class="lede">
       In high-risk medical AI, the deciding questions come after the model works: who
@@ -30,7 +30,7 @@ title: Home
 
 ## Who I am
 
-I am an AI researcher (PhD, The University of Hong Kong) and R&D manager leading the development of a patient-facing medical digital twin at a joint university-industry AI laboratory at HKU. I came to governance from the builder's side, and that taught me the hardest questions in medical AI are not about model accuracy but about intended use, responsibility boundaries, escalation authority, and what happens after deployment. I now build both sides of that bridge: the system, and the governance it needs before it reaches patients. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
+I am an AI researcher (PhD, The University of Hong Kong) and lead of the HKU-Avnet Joint AI Laboratory, developing a patient-facing medical digital twin. I came to governance from the builder's side, and that taught me the hardest questions in medical AI are not about model accuracy but about intended use, responsibility boundaries, escalation authority, and what happens after deployment. I now build both sides of that bridge: the system, and the governance it needs before it reaches patients. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
 
 ## Three things to look at
 
@@ -59,7 +59,7 @@ I am an AI researcher (PhD, The University of Hong Kong) and R&D manager leading
 
 <div class="copy-bio">
   <p class="copy-bio-label">One-line bio (for introductions, references, or bylines)</p>
-  <p class="copy-bio-text" id="copy-bio-text">AI PhD (HKU) and R&amp;D manager building and governing a patient-facing medical digital twin, with first-author work at AAAI and IJCV.</p>
+  <p class="copy-bio-text" id="copy-bio-text">AI PhD (HKU) and lead of the HKU-Avnet Joint AI Laboratory, building and governing a patient-facing medical digital twin, with first-author work at AAAI and IJCV.</p>
 </div>
 
 Email: <a href="mailto:qianxy10@connect.hku.hk">qianxy10@connect.hku.hk</a> · <a href="mailto:xyqian@eee.hku.hk">xyqian@eee.hku.hk</a> · <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a> · <a href="https://www.linkedin.com/in/xiaoyan-qian-b2256b88/">LinkedIn</a> · <a href="https://orcid.org/0000-0003-4426-0667">ORCID</a>

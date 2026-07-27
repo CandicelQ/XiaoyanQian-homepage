@@ -23,7 +23,7 @@ Credibility in governance work starts with honest claims about one's own evidenc
 ### Patient-facing Medical Digital Twin: Building the System and Its Governance
 <p class="badge badge-project">Project-derived · system building + pre-deployment governance design</p>
 
-This is my main project. At a joint university-industry AI laboratory at HKU, I lead both the engineering of a patient-facing medical digital twin and the governance framing that must precede its deployment. The system is in incubation, which is exactly when governance work matters most. Holding both roles on the same system is the point: I govern what I build.
+This is my main project. At the HKU-Avnet Joint AI Laboratory, I lead both the engineering of a patient-facing medical digital twin and the governance framing that must precede its deployment. The system is in incubation, which is exactly when governance work matters most. Holding both roles on the same system is the point: I govern what I build.
 
 **What I build**
 
