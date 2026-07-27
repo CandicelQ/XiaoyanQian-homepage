@@ -54,7 +54,7 @@ body.home .site-name { display: none; }
 .hero { padding: 2.8rem 0 1.4rem; }
 .hero-body { display: flex; align-items: flex-start; gap: 2rem; }
 .hero-body .lede { flex: 1 1 auto; margin: 0; }
-.hero .portrait { flex: 0 0 190px; width: 190px; height: auto; border-radius: 12px; border: 1px solid var(--line); }
+.hero .portrait { flex: 0 0 190px; width: 190px; height: auto; border-radius: 12px; }
 .hero h1 { font-size: 2.2rem; margin: 0 0 0.4rem; }
 .hero .tagline { font-size: 1.2rem; color: var(--accent); font-family: Georgia, serif; margin: 0 0 0.35rem; }
 .hero .tagline .sep { color: var(--muted); margin: 0 0.45rem; font-weight: 400; }
