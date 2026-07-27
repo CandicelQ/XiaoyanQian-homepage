@@ -25,7 +25,7 @@ title: Home
 
 <div class="role-wording">
   <p class="role-wording-title">Current focus: Medical Digital Twin Initiative, AI Prototyping and Governance Framing</p>
-  <p class="role-wording-desc">Leading technical prototyping, project coordination, and governance-oriented deployment readiness work, including stakeholder mapping, clinical-risk considerations, and responsible AI documentation.</p>
+  <p class="role-wording-desc">Taking one patient-facing system from research prototype toward responsible deployment, and building the governance that must be in place first.</p>
 </div>
 
 ## Who I am
