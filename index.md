@@ -30,7 +30,7 @@ title: Home
 
 ## Who I am
 
-I am an AI researcher (PhD, The University of Hong Kong) and lead of the HKU-Avnet Joint AI Laboratory, developing a patient-facing medical digital twin. I came to governance from the builder's side, and that taught me the hardest questions in medical AI are not about model accuracy but about intended use, responsibility boundaries, escalation authority, and what happens after deployment. I now build both sides of that bridge: the system, and the governance it needs before it reaches patients. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
+I came to governance from the builder's side: I lead the engineering of a patient-facing medical digital twin at the HKU-Avnet Joint AI Laboratory, and I build the governance it needs. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
 
 ## Three things to look at
 
