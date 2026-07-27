@@ -32,7 +32,7 @@ title: Home
 
 I came to governance from the builder's side: I lead the engineering of a patient-facing medical digital twin at the HKU-Avnet Joint AI Laboratory, and I build the governance it needs. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
 
-## Three things to look at
+## Start here
 
 <ul class="cards">
   <li class="card">
