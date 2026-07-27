@@ -52,4 +52,4 @@ The end state this program works toward is a prospectively evaluated, clinically
 
 I publish short [governance notes]({{ '/notes/' | relative_url }}) that take one technical question at a time and translate it into governance language: what the risk is, who is accountable, and how it would actually be deployed. New notes are added regularly, several taking a current development in AI and reading it through a governance lens.
 
-<p class="muted">Two recent notes: what DeepMind's move into bioresilience means for dual-use accountability, and what the Anthropic export-control episode means for a hospital that depends on a foreign model. See all in <a href="{{ '/notes/' | relative_url }}">Notes</a>.</p>
+<p class="muted">Three recent notes: why the 2026 state laws on AI in prior authorization are really about access to care, not only its quality; what DeepMind's move into bioresilience means for dual-use accountability; and what the Anthropic export-control episode means for a hospital that depends on a foreign model. See all in <a href="{{ '/notes/' | relative_url }}">Notes</a>.</p>
