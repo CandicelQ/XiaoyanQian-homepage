@@ -50,6 +50,6 @@ The end state this program works toward is a prospectively evaluated, clinically
 
 ## Shorter governance writing
 
-I publish short [governance notes]({{ '/notes/' | relative_url }}) that take one technical question at a time and translate it into governance language: what the risk is, who is accountable, and how it would actually be deployed. New notes are added regularly, drawn from my daily practice of turning technical work into governance reasoning.
+I publish short [governance notes]({{ '/notes/' | relative_url }}) that take one technical question at a time and translate it into governance language: what the risk is, who is accountable, and how it would actually be deployed. New notes are added regularly, several taking a current development in AI and reading it through a governance lens.
 
-<p class="muted">Recent topics: reliability versus accuracy, what an AI audit should audit, when an AI-generated draft becomes a legal medical record. See all in <a href="{{ '/notes/' | relative_url }}">Notes</a>.</p>
+<p class="muted">Two recent notes: what DeepMind's move into bioresilience means for dual-use accountability, and what the Anthropic export-control episode means for a hospital that depends on a foreign model. See all in <a href="{{ '/notes/' | relative_url }}">Notes</a>.</p>
