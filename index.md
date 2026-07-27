@@ -50,17 +50,12 @@ I came to governance from the builder's side: I lead the engineering of a patien
   <li class="card">
     <p class="badge badge-published">Research</p>
     <h3>Accountable Patient-facing Interpretation</h3>
-    <p>A governance research program anchored by a Viewpoint manuscript, building on first-author work at AAAI and IJCV: a five-layer accountability map, a Grade 0 to 4 maturity framework, and a named consent harm, unmarked domain-crossing, where a system slides from monitoring to inference with no signal a line was crossed.</p>
+    <p>When a medical AI speaks to a patient about their own body, what makes that voice accountable? My research program answers this, building on first-author work at AAAI and IJCV: a five-layer accountability map, a Grade 0 to 4 maturity framework, and a named consent harm, unmarked domain-crossing, where a system slides from monitoring to inference with no signal a line was crossed.</p>
     <a href="{{ '/writing/' | relative_url }}">Read more →</a>
   </li>
 </ul>
 
 ## Contact
-
-<div class="copy-bio">
-  <p class="copy-bio-label">One-line bio (for introductions, references, or bylines)</p>
-  <p class="copy-bio-text" id="copy-bio-text">AI PhD (HKU) and lead of the HKU-Avnet Joint AI Laboratory, building and governing a patient-facing medical digital twin, with first-author work at AAAI and IJCV.</p>
-</div>
 
 Email: <a href="mailto:qianxy10@connect.hku.hk">qianxy10@connect.hku.hk</a> · <a href="mailto:xyqian@eee.hku.hk">xyqian@eee.hku.hk</a> · <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a> · <a href="https://www.linkedin.com/in/xiaoyan-qian-b2256b88/">LinkedIn</a> · <a href="https://orcid.org/0000-0003-4426-0667">ORCID</a>
 
