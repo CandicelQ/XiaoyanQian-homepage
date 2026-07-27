@@ -47,7 +47,7 @@ git push -u origin main
 evidence_class 三个值控制标签颜色：
 - `project`（绿）= Project-derived
 - `scenario`（黄）= Scenario-based
-- `published`（蓝）= Published writing
+- `published`（蓝）= Research
 
 ## 设计原则（改动时别破坏）
 

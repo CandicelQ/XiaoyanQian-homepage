@@ -6,11 +6,11 @@
   --line: #e3e6ea;
   --bg: #ffffff;
   --green: #1e6e42;
-  --green-bg: #e8f4ec;
+  --green-bg: #cdead6;
   --amber: #8a5a00;
-  --amber-bg: #fdf3e0;
+  --amber-bg: #fbe4bf;
   --blue: #14507a;
-  --blue-bg: #eaf2f8;
+  --blue-bg: #d4e5f3;
 }
 
 * { box-sizing: border-box; }
