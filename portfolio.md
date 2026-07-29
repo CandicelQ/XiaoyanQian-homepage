@@ -51,6 +51,26 @@ This is my main project. At the HKU-Avnet Joint AI Laboratory, I lead both the e
 
 *This is a project-derived pre-deployment governance case. It is not presented as a live deployment or post-market case, and the public version is sanitized.*
 
+<h2 id="at-a-glance">Governance at a glance</h2>
+
+<p class="section-intro">
+The fastest way to see how this fits together: seven risk domains, each with the operational control I built for it and the audit evidence that control produces. This is the map; the cases and artifacts below are the territory. <span class="badge badge-project">Project-derived</span> · pre-deployment · sanitized.
+</p>
+
+| Risk domain | The risk in one line | Control I built | Evidence it produces |
+| --- | --- | --- | --- |
+| Intended use &amp; boundary | Scope creep from monitoring into diagnosis or off-label use | [Pre-deployment charter]({{ '/artifacts/pre-deployment-charter/' | relative_url }}) | Non-use list, decision-rights record |
+| Data | Untrustworthy, unlawful, or untraceable data; missingness read as "no risk" | Data readiness gate + provenance/lineage register | Readiness status, lineage entries, lawful-basis record |
+| Agents | Agent sprawl, over-scoped access, privilege creep, unauditable actions | [Agent decision rights]({{ '/cases/agent-decision-rights/' | relative_url }}) · [Agent risk-control matrix]({{ '/artifacts/agent-risk-control-matrix/' | relative_url }}) | Registry, access-review logs, control tests |
+| Change control | Silent model updates; no safe version left to run | Change control + predetermined change control plan | Version logs, revalidation records, fallback trigger |
+| Assurance | The builder self-certifies; delivery pressure overrides safety | Independent review, kept separate from delivery sign-off | Independent sign-off record, audit confirmation |
+| Post-market signals | Behavioural harm invisible to a green dashboard | [Model-drift case]({{ '/cases/model-drift/' | relative_url }}) · [Monitoring table]({{ '/artifacts/monitoring-table/' | relative_url }}) · [Risk register]({{ '/artifacts/risk-register/' | relative_url }}) | Signal log, escalation records, drift analyses |
+| Dependencies | A hard-to-replace input (model, cloud, sensor, specialist, consumable) fails | [Dependency register]({{ '/artifacts/dependency-register/' | relative_url }}) | Owner, fallback, and review-trigger per dependency |
+
+<p class="section-intro">
+Two principles run through every row: each control names an <strong>owner, a trigger, and an audit trail</strong> (not "we are careful"); and the person accountable for <strong>delivering</strong> a component is never the person who signs it <strong>safe</strong>. If you are building or overseeing patient-facing medical AI, the single ask this map supports is simple — pick one row, and let us walk through how it would apply to your system.
+</p>
+
 <h2 id="casebook">Governance casebook</h2>
 
 <p class="section-intro">
