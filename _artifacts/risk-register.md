@@ -9,16 +9,18 @@ summary: "Converts diffuse concern into named, graded, owned, and reviewable ris
 
 A risk register turns "we are worried about the model" into a structure an organization can act on. Every entry has a named owner, a mitigation, and a review date. Without an owner, nobody manages the risk. Without a mitigation, it is only a complaint. Without a review date, it gets forgotten.
 
-This risk register is the instrument from the governance pack (v0.1) I developed for my patient-facing cardiometabolic digital twin, aligned with the bounded cardiometabolic use case in my Viewpoint. The entries are a post-deployment projection in the twin's own domain: the cardiovascular and metabolic risks the system would need to manage once deployed. The twin is pre-deployment, so these are projected risks used to exercise the structure, not figures from a live system. No confidential project or patient detail is included.
+This risk register is the instrument from the governance pack (v0.2) I developed for my patient-facing cardiometabolic digital twin, aligned with the bounded cardiometabolic use case in my Viewpoint. The entries are a post-deployment projection in the twin's own domain: the cardiovascular and metabolic risks the system would need to manage once deployed. The twin is pre-deployment, so these are projected risks used to exercise the structure, not figures from a live system. No confidential project or patient detail is included.
 
 ## Fixed metadata
 
 | Field | Value |
 | --- | --- |
 | Data provenance | Wearable streams (heart rate, HRV, sleep, activity), EHR labs (HbA1c, lipids, blood pressure), validated self-reports, model output logs |
-| Model version | Cardiometabolic Risk Model v[fill in] (within the patient-facing cardiometabolic twin) |
+| Model version | Cardiometabolic Risk Model — pre-deployment build (version pinned at validation before any pilot) |
 | Approval owner | AI Governance Lead + Patient Safety Committee |
-| Effective date | [fill in] |
+| Effective date | Not yet in force (pre-deployment) |
+| Version | v0.2 |
+| Last updated | July 2026 |
 | Known limitation | Pre-deployment projection: risk grading reflects anticipated risks and will be revised against real monitoring evidence once deployed |
 
 ## Register

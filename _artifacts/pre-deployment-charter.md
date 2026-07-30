@@ -9,7 +9,7 @@ summary: "The real governance charter I developed for the medical digital twin I
 
 Most governance failures start before a line of monitoring code is written: the intended use is vague, the boundaries are undefined, and nobody has decided what evidence is required before patients are involved. A pre-deployment governance charter fixes those things at the start. It states what the system is, what it is not, where its boundaries are, and which artifacts must exist before it can move toward a pilot.
 
-This is drawn from the actual governance pack (v0.1) of the medical digital twin I am building at the HKU-Avnet Joint AI Laboratory. The system has not been deployed; that is precisely why this charter exists now. It is sanitized: partner names, individuals, and confidential detail are removed, and the structure and governance logic are the real ones.
+This is drawn from the actual governance pack (v0.2) of the medical digital twin I am building at the HKU-Avnet Joint AI Laboratory. The system has not been deployed; that is precisely why this charter exists now. It is sanitized: partner names, individuals, and confidential detail are removed, and the structure and governance logic are the real ones.
 
 ## Fixed metadata
 
@@ -18,7 +18,8 @@ This is drawn from the actual governance pack (v0.1) of the medical digital twin
 | Project stage | Incubation / pre-deployment |
 | Prepared by | Developed and drafted as the project's governance workstream |
 | Prepared for | Executive sponsor and relevant PI review (named internally) |
-| Version | v0.1 |
+| Version | v0.2 |
+| Last updated | July 2026 |
 | Known limitation | Pre-deployment: no clinical validation or post-market evidence yet exists; this charter defines what must be produced before any external pilot |
 
 ## Project definition and intended use

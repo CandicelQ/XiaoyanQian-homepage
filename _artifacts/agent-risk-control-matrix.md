@@ -11,7 +11,18 @@ An agent registry answers *what agents exist* and *who owns them*. This matrix a
 
 It exists because agentic AI governance is moving from voluntary pledges ("we will use agents responsibly") toward institutionalized controls: named risks, defined controls, pre-deployment and ongoing tests, monitored signals, and an audit trail a reviewer can inspect. This artifact is the project-level version of that shift. Each row is one risk, not one agent, because the same risk (for example, acting without human approval) applies across several agents.
 
-This is drawn from the governance pack (v0.1) of the patient-facing medical digital twin I am building at the HKU-Avnet Joint AI Laboratory. It pairs with the agent registry in the same pack: the registry defines each agent's permission tier; this matrix defines how the boundaries implied by that tier are enforced and evidenced. It is sanitized, and the rows are an illustrative pre-deployment worked example used to exercise the structure.
+This is drawn from the governance pack (v0.2) of the patient-facing medical digital twin I am building at the HKU-Avnet Joint AI Laboratory. It pairs with the agent registry in the same pack: the registry defines each agent's permission tier; this matrix defines how the boundaries implied by that tier are enforced and evidenced. It is sanitized, and the rows are an illustrative pre-deployment worked example used to exercise the structure.
+
+## Fixed metadata
+
+| Field | Value |
+| --- | --- |
+| Project stage | Incubation / pre-deployment |
+| Scope | Per-risk controls across the patient-facing agent pipeline: control, control type, test, monitored signal, audit evidence, owner |
+| Approval owner | AI Governance Lead |
+| Version | v0.2 |
+| Last updated | July 2026 |
+| Known limitation | Pre-deployment worked example: controls and tests exercise the structure; owners are role-level and tests are pre-deployment, to be run and fixed to named individuals before any external pilot |
 
 ## How to read each row
 
