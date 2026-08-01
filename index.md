@@ -6,7 +6,7 @@ title: Home
 <div class="hero">
   <h1>Xiaoyan Qian</h1>
   <p class="tagline"><span class="role">Medical AI Governance</span><span class="sep">&times;</span><span class="role">High-Risk AI Deployment</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
-  <p class="credential">AI PhD, The University of Hong Kong &middot; Lead, HKU-Avnet Joint AI Lab</p>
+  <p class="credential">AI PhD, The University of Hong Kong &middot; R&amp;D Manager and Functional Lab Lead, HKU-Avnet Joint AI Laboratory</p>
   <div class="hero-body">
     <p class="lede">
       In high-risk medical AI, the deciding questions come after the model works: who
