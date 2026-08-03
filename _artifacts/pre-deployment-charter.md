@@ -57,7 +57,7 @@ Before the system can move toward an external pilot, this charter requires the f
 
 Governance is not a compliance layer added after the model works. It is built **in parallel with the system, before deployment**, so that intended use, boundaries, and accountability are decided while they can still shape the build, rather than reconstructed after something goes wrong. This charter is the instrument that makes "we will govern it later" into "here is what must be true before it reaches a patient."
 
-<details>
+<details markdown="1">
 <summary>Citation metadata</summary>
 
 | Field | Value |

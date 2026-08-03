@@ -53,7 +53,7 @@ Before any patient-facing feature is treated as deployment-ready, every external
 
 <p class="muted">Related note: <a href="{{ '/notes/2026-07-22-ai-governance-is-also-infrastructure-governance/' | relative_url }}">AI governance is also infrastructure governance</a> works through the same idea using a real 2026 export-control episode.</p>
 
-<details>
+<details markdown="1">
 <summary>Citation metadata</summary>
 
 | Field | Value |

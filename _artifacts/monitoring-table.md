@@ -44,7 +44,7 @@ The structure and monitoring logic here are the ones I apply in pre-deployment g
 
 Monitoring is only real when each metric is tied to **an owner, a trigger threshold, and a required action.** The table answers the questions that matter after deployment: what do we look at, how often, who is accountable, what counts as abnormal, and what do we do about it. That is the difference between an accuracy report and continuous governance.
 
-<details>
+<details markdown="1">
 <summary>Citation metadata</summary>
 
 | Field | Value |

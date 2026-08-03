@@ -55,7 +55,7 @@ That is the shift this artifact reflects: from *promising* good agent behaviour 
 
 <p class="muted">Related note: <a href="{{ '/notes/2026-07-22-from-promise-to-evidence-agent-governance/' | relative_url }}">From promise to evidence: what institutionalized agent governance actually asks for</a>.</p>
 
-<details>
+<details markdown="1">
 <summary>Citation metadata</summary>
 
 | Field | Value |

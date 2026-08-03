@@ -43,7 +43,7 @@ This risk register is the instrument from the governance pack (v0.2) I developed
 
 Each risk must carry three things: **a risk owner, a mitigation, and a review date.** The register also separates *who identifies* a risk, *who owns a control*, *who owns the risk*, and *who has authority to accept residual risk*, so that residual risk is accepted by people with the authority and resources to manage it, not defaulted onto whoever understands the model best.
 
-<details>
+<details markdown="1">
 <summary>Citation metadata</summary>
 
 | Field | Value |
