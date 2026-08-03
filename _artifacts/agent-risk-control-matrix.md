@@ -17,7 +17,7 @@ suggested_citation: "Qian, X. (2026). Agent Risk-Control Matrix (project-derived
 | --- | --- |
 | Title | Agent Risk-Control Matrix (project-derived, sanitized) |
 | Author | Xiaoyan Qian |
-| Version | v0.1 |
+| Public page version | v0.1 |
 | Publication date | 2026-08-03 |
 | Stable URL | https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
 | Licence | All rights reserved |
@@ -38,7 +38,7 @@ This is drawn from the governance pack (v0.2) of the patient-facing medical digi
 | Project stage | Incubation / pre-deployment |
 | Scope | Per-risk controls across the patient-facing agent pipeline: control, control type, test, monitored signal, audit evidence, owner |
 | Approval owner | AI Governance Lead |
-| Version | v0.2 |
+| Source governance pack version | v0.2 |
 | Last updated | July 2026 |
 | Known limitation | Pre-deployment worked example: controls and tests exercise the structure; owners are role-level and tests are pre-deployment, to be run and fixed to named individuals before any external pilot |
 

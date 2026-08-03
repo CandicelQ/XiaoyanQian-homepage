@@ -17,7 +17,7 @@ suggested_citation: "Qian, X. (2026). Pre-deployment Governance Charter (project
 | --- | --- |
 | Title | Pre-deployment Governance Charter (project-derived, sanitized) |
 | Author | Xiaoyan Qian |
-| Version | v0.1 |
+| Public page version | v0.1 |
 | Publication date | 2026-08-03 |
 | Stable URL | https://xiaoyanqian.com/artifacts/pre-deployment-charter/ |
 | Licence | All rights reserved |
@@ -36,7 +36,7 @@ This is drawn from the actual governance pack (v0.2) of the medical digital twin
 | Project stage | Incubation / pre-deployment |
 | Prepared by | Developed and drafted as the project's governance workstream |
 | Prepared for | Executive sponsor and relevant PI review (named internally) |
-| Version | v0.2 |
+| Source governance pack version | v0.2 |
 | Last updated | July 2026 |
 | Known limitation | Pre-deployment: no clinical validation or post-market evidence yet exists; this charter defines what must be produced before any external pilot |
 

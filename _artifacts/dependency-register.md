@@ -17,7 +17,7 @@ suggested_citation: "Qian, X. (2026). Model and Infrastructure Dependency Regist
 | --- | --- |
 | Title | Model and Infrastructure Dependency Register (project-derived, sanitized) |
 | Author | Xiaoyan Qian |
-| Version | v0.1 |
+| Public page version | v0.1 |
 | Publication date | 2026-08-03 |
 | Stable URL | https://xiaoyanqian.com/artifacts/dependency-register/ |
 | Licence | All rights reserved |
@@ -43,7 +43,7 @@ The question that does not show up in a demonstration is the one this register c
 | --- | --- |
 | Project stage | Incubation / pre-deployment |
 | Scope | External models, cloud services, and hardware on a patient-facing path |
-| Version | v0.2 |
+| Source governance pack version | v0.2 |
 | Last updated | July 2026 |
 | Known limitation | Pre-deployment worked example: owners and fallbacks are role-level placeholders to exercise the structure, to be fixed to named individuals before any external pilot |
 
