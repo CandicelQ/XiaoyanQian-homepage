@@ -11,18 +11,6 @@ license: "All rights reserved"
 suggested_citation: "Qian, X. (2026). Model and Infrastructure Dependency Register (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/dependency-register/"
 ---
 
-## Citation metadata
-
-| Field | Value |
-| --- | --- |
-| Title | Model and Infrastructure Dependency Register (project-derived, sanitized) |
-| Author | Xiaoyan Qian |
-| Public page version | v0.1 |
-| Publication date | 2026-08-03 |
-| Stable URL | https://xiaoyanqian.com/artifacts/dependency-register/ |
-| Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Model and Infrastructure Dependency Register (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/dependency-register/ |
-
 ## What this artifact is for
 
 Most medical AI risk work is built around clinical failure: false negatives, subgroup performance, accuracy drift. This register covers a different failure mechanism that can produce the same patient harm through a completely different path: a model, cloud region, or chip supply the system depends on becoming unavailable, restricted, or withdrawn for reasons outside the project's control, such as a vendor outage, an export-control action, a licensing change, a price change, or a version deprecation.
@@ -64,3 +52,18 @@ A dependency chosen for convenience is not automatically a governed decision. It
 Before any patient-facing feature is treated as deployment-ready, every external dependency it relies on must appear in this register with an owner, a fallback, and a review trigger.
 
 <p class="muted">Related note: <a href="{{ '/notes/2026-07-22-ai-governance-is-also-infrastructure-governance/' | relative_url }}">AI governance is also infrastructure governance</a> works through the same idea using a real 2026 export-control episode.</p>
+
+<details>
+<summary>Citation metadata</summary>
+
+| Field | Value |
+| --- | --- |
+| Title | Model and Infrastructure Dependency Register (project-derived, sanitized) |
+| Author | Xiaoyan Qian |
+| Public page version | v0.1 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/dependency-register/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Model and Infrastructure Dependency Register (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/dependency-register/ |
+
+</details>

@@ -11,18 +11,6 @@ license: "All rights reserved"
 suggested_citation: "Qian, X. (2026). Post-deployment Monitoring Table (sanitized), v0.2. https://xiaoyanqian.com/artifacts/monitoring-table/"
 ---
 
-## Citation metadata
-
-| Field | Value |
-| --- | --- |
-| Title | Post-deployment Monitoring Table (sanitized) |
-| Author | Xiaoyan Qian |
-| Version | v0.2 |
-| Publication date | 2026-08-03 |
-| Stable URL | https://xiaoyanqian.com/artifacts/monitoring-table/ |
-| Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Post-deployment Monitoring Table (sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/monitoring-table/ |
-
 ## What this artifact is for
 
 A monitoring table is not decoration. It exists to make continuous oversight executable. Each row answers five questions at once: what to watch, how often, who is responsible, what counts as abnormal, and what happens when it does. A metric without a review owner, a trigger threshold, and a required action is not being governed.
@@ -55,3 +43,18 @@ The structure and monitoring logic here are the ones I apply in pre-deployment g
 ## The design principle
 
 Monitoring is only real when each metric is tied to **an owner, a trigger threshold, and a required action.** The table answers the questions that matter after deployment: what do we look at, how often, who is accountable, what counts as abnormal, and what do we do about it. That is the difference between an accuracy report and continuous governance.
+
+<details>
+<summary>Citation metadata</summary>
+
+| Field | Value |
+| --- | --- |
+| Title | Post-deployment Monitoring Table (sanitized) |
+| Author | Xiaoyan Qian |
+| Public page version | v0.2 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/monitoring-table/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Post-deployment Monitoring Table (sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/monitoring-table/ |
+
+</details>

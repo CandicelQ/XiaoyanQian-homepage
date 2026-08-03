@@ -11,18 +11,6 @@ license: "All rights reserved"
 suggested_citation: "Qian, X. (2026). Agent Risk-Control Matrix (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/"
 ---
 
-## Citation metadata
-
-| Field | Value |
-| --- | --- |
-| Title | Agent Risk-Control Matrix (project-derived, sanitized) |
-| Author | Xiaoyan Qian |
-| Public page version | v0.1 |
-| Publication date | 2026-08-03 |
-| Stable URL | https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
-| Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Agent Risk-Control Matrix (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
-
 ## What this artifact is for
 
 An agent registry answers *what agents exist* and *who owns them*. This matrix answers the next question: for each way an agent can cause harm, what control prevents it, how is that control tested, and where is the evidence that it held.
@@ -66,3 +54,18 @@ A control that is written down but never tested is not a control; it is a hope. 
 That is the shift this artifact reflects: from *promising* good agent behaviour to *evidencing* it. Voluntary assurance says "we are careful." Institutionalized control says "here is the gate, here is the test that proves the gate holds, here is the dashboard that watches it, and here is the log that proves it held on this date."
 
 <p class="muted">Related note: <a href="{{ '/notes/2026-07-22-from-promise-to-evidence-agent-governance/' | relative_url }}">From promise to evidence: what institutionalized agent governance actually asks for</a>.</p>
+
+<details>
+<summary>Citation metadata</summary>
+
+| Field | Value |
+| --- | --- |
+| Title | Agent Risk-Control Matrix (project-derived, sanitized) |
+| Author | Xiaoyan Qian |
+| Public page version | v0.1 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Agent Risk-Control Matrix (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
+
+</details>

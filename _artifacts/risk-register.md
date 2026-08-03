@@ -11,18 +11,6 @@ license: "All rights reserved"
 suggested_citation: "Qian, X. (2026). Risk Register (sanitized), v0.2. https://xiaoyanqian.com/artifacts/risk-register/"
 ---
 
-## Citation metadata
-
-| Field | Value |
-| --- | --- |
-| Title | Risk Register (sanitized) |
-| Author | Xiaoyan Qian |
-| Version | v0.2 |
-| Publication date | 2026-08-03 |
-| Stable URL | https://xiaoyanqian.com/artifacts/risk-register/ |
-| Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Risk Register (sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/risk-register/ |
-
 ## What this artifact is for
 
 A risk register turns "we are worried about the model" into a structure an organization can act on. Every entry has a named owner, a mitigation, and a review date. Without an owner, nobody manages the risk. Without a mitigation, it is only a complaint. Without a review date, it gets forgotten.
@@ -54,3 +42,18 @@ This risk register is the instrument from the governance pack (v0.2) I developed
 ## The design principle
 
 Each risk must carry three things: **a risk owner, a mitigation, and a review date.** The register also separates *who identifies* a risk, *who owns a control*, *who owns the risk*, and *who has authority to accept residual risk*, so that residual risk is accepted by people with the authority and resources to manage it, not defaulted onto whoever understands the model best.
+
+<details>
+<summary>Citation metadata</summary>
+
+| Field | Value |
+| --- | --- |
+| Title | Risk Register (sanitized) |
+| Author | Xiaoyan Qian |
+| Public page version | v0.2 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/risk-register/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Risk Register (sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/risk-register/ |
+
+</details>

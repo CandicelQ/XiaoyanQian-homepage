@@ -11,18 +11,6 @@ license: "All rights reserved"
 suggested_citation: "Qian, X. (2026). Pre-deployment Governance Charter (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/pre-deployment-charter/"
 ---
 
-## Citation metadata
-
-| Field | Value |
-| --- | --- |
-| Title | Pre-deployment Governance Charter (project-derived, sanitized) |
-| Author | Xiaoyan Qian |
-| Public page version | v0.1 |
-| Publication date | 2026-08-03 |
-| Stable URL | https://xiaoyanqian.com/artifacts/pre-deployment-charter/ |
-| Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Pre-deployment Governance Charter (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/pre-deployment-charter/ |
-
 ## What this artifact is for
 
 Most governance failures start before a line of monitoring code is written: the intended use is vague, the boundaries are undefined, and nobody has decided what evidence is required before patients are involved. A pre-deployment governance charter fixes those things at the start. It states what the system is, what it is not, where its boundaries are, and which artifacts must exist before it can move toward a pilot.
@@ -68,3 +56,18 @@ Before the system can move toward an external pilot, this charter requires the f
 ## The design principle
 
 Governance is not a compliance layer added after the model works. It is built **in parallel with the system, before deployment**, so that intended use, boundaries, and accountability are decided while they can still shape the build, rather than reconstructed after something goes wrong. This charter is the instrument that makes "we will govern it later" into "here is what must be true before it reaches a patient."
+
+<details>
+<summary>Citation metadata</summary>
+
+| Field | Value |
+| --- | --- |
+| Title | Pre-deployment Governance Charter (project-derived, sanitized) |
+| Author | Xiaoyan Qian |
+| Public page version | v0.1 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/pre-deployment-charter/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Pre-deployment Governance Charter (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/pre-deployment-charter/ |
+
+</details>
