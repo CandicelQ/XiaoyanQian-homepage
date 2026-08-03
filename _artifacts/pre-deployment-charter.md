@@ -3,7 +3,25 @@ title: "Pre-deployment Governance Charter (project-derived, sanitized)"
 evidence_type: "Project-derived · pre-deployment · sanitized"
 evidence_class: project
 summary: "The real governance charter I developed for the medical digital twin I am building. It defines the system as a non-diagnostic prototype and builds its governance in parallel, before any deployment."
+author: "Xiaoyan Qian"
+version: "v0.1"
+publication_date: "2026-08-03"
+stable_url: "https://xiaoyanqian.com/artifacts/pre-deployment-charter/"
+license: "All rights reserved"
+suggested_citation: "Qian, X. (2026). Pre-deployment Governance Charter (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/pre-deployment-charter/"
 ---
+
+## Citation metadata
+
+| Field | Value |
+| --- | --- |
+| Title | Pre-deployment Governance Charter (project-derived, sanitized) |
+| Author | Xiaoyan Qian |
+| Version | v0.1 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/pre-deployment-charter/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Pre-deployment Governance Charter (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/pre-deployment-charter/ |
 
 ## What this artifact is for
 

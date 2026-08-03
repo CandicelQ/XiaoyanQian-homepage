@@ -3,7 +3,25 @@ title: "Post-deployment Monitoring Table (sanitized)"
 evidence_type: "Scenario-based · sanitized"
 evidence_class: scenario
 summary: "Turns 'keep an eye on the model' into executable action. Every row answers five questions: what to watch, how often, who is responsible, what counts as abnormal, and what to do next."
+author: "Xiaoyan Qian"
+version: "v0.2"
+publication_date: "2026-08-03"
+stable_url: "https://xiaoyanqian.com/artifacts/monitoring-table/"
+license: "All rights reserved"
+suggested_citation: "Qian, X. (2026). Post-deployment Monitoring Table (sanitized), v0.2. https://xiaoyanqian.com/artifacts/monitoring-table/"
 ---
+
+## Citation metadata
+
+| Field | Value |
+| --- | --- |
+| Title | Post-deployment Monitoring Table (sanitized) |
+| Author | Xiaoyan Qian |
+| Version | v0.2 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/monitoring-table/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Post-deployment Monitoring Table (sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/monitoring-table/ |
 
 ## What this artifact is for
 

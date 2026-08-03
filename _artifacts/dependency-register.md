@@ -3,7 +3,25 @@ title: "Model and Infrastructure Dependency Register (project-derived, sanitized
 evidence_type: "Project-derived · pre-deployment · sanitized"
 evidence_class: project
 summary: "A register of the external models, cloud services, and hardware a patient-facing system depends on, each with an owner, a fallback, and a review trigger. It governs a failure mode most risk registers miss: not the model being wrong, but the model becoming unavailable."
+author: "Xiaoyan Qian"
+version: "v0.1"
+publication_date: "2026-08-03"
+stable_url: "https://xiaoyanqian.com/artifacts/dependency-register/"
+license: "All rights reserved"
+suggested_citation: "Qian, X. (2026). Model and Infrastructure Dependency Register (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/dependency-register/"
 ---
+
+## Citation metadata
+
+| Field | Value |
+| --- | --- |
+| Title | Model and Infrastructure Dependency Register (project-derived, sanitized) |
+| Author | Xiaoyan Qian |
+| Version | v0.1 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/dependency-register/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Model and Infrastructure Dependency Register (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/dependency-register/ |
 
 ## What this artifact is for
 

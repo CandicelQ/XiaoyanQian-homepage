@@ -3,7 +3,25 @@ title: "Agent Risk-Control Matrix (project-derived, sanitized)"
 evidence_type: "Project-derived · pre-deployment · sanitized"
 evidence_class: project
 summary: "Turns each way an AI agent can cause harm into a named control, a test that proves the control works, a monitored signal, and an audit-evidence record. It is the difference between promising an agent is safe and being able to evidence it."
+author: "Xiaoyan Qian"
+version: "v0.1"
+publication_date: "2026-08-03"
+stable_url: "https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/"
+license: "All rights reserved"
+suggested_citation: "Qian, X. (2026). Agent Risk-Control Matrix (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/"
 ---
+
+## Citation metadata
+
+| Field | Value |
+| --- | --- |
+| Title | Agent Risk-Control Matrix (project-derived, sanitized) |
+| Author | Xiaoyan Qian |
+| Version | v0.1 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Agent Risk-Control Matrix (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
 
 ## What this artifact is for
 

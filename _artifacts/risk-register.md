@@ -3,7 +3,25 @@ title: "Risk Register (sanitized)"
 evidence_type: "Project-derived · sanitized"
 evidence_class: project
 summary: "Converts diffuse concern into named, graded, owned, and reviewable risks. The design point is that no risk exists without an owner, a mitigation, and a review date."
+author: "Xiaoyan Qian"
+version: "v0.2"
+publication_date: "2026-08-03"
+stable_url: "https://xiaoyanqian.com/artifacts/risk-register/"
+license: "All rights reserved"
+suggested_citation: "Qian, X. (2026). Risk Register (sanitized), v0.2. https://xiaoyanqian.com/artifacts/risk-register/"
 ---
+
+## Citation metadata
+
+| Field | Value |
+| --- | --- |
+| Title | Risk Register (sanitized) |
+| Author | Xiaoyan Qian |
+| Version | v0.2 |
+| Publication date | 2026-08-03 |
+| Stable URL | https://xiaoyanqian.com/artifacts/risk-register/ |
+| Licence | All rights reserved |
+| Suggested citation | Qian, X. (2026). *Risk Register (sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/risk-register/ |
 
 ## What this artifact is for
 
