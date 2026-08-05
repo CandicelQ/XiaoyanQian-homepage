@@ -82,6 +82,10 @@ The common structure is deliberate: it is designed to be teachable, so each case
 </p>
 
 <p class="section-intro">
+These cases are not literature reviews of the frameworks. Each one is the reasoning I apply to my own patient-facing system, generalised into a teachable pattern; the frameworks are the shared vocabulary, not the source. The same controls appear, named and owned, in the project-derived pack above.
+</p>
+
+<p class="section-intro">
 The casebook spans the full AI-SaMD deployment lifecycle — <strong>nine readiness areas, from intended-use boundaries to post-market monitoring, each producing a concrete, adaptable governance tool</strong> rather than a generic template:
 </p>
 
