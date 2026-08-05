@@ -120,7 +120,7 @@ approval owner, effective date, and known limitations.
 </p>
 
 <p class="section-intro">
-Five of these are published in full and span the deployment lifecycle. Four are drawn from the governance pack I developed for my medical digital twin (project-derived, sanitized): the pre-deployment charter, the risk register, the dependency register, and the agent risk-control matrix. The monitoring table is a scenario-based instrument. Because the twin is pre-deployment, the operational examples shown are illustrative worked cases used to exercise the structure, not data from a live system.
+Six of these are published in full. Five span the deployment lifecycle; the sixth is the one public-facing accountability document — a plain-language summary any non-user can read. Four are drawn from the governance pack I developed for my medical digital twin (project-derived, sanitized): the pre-deployment charter, the risk register, the dependency register, and the agent risk-control matrix. The monitoring table is a scenario-based instrument. Because the twin is pre-deployment, the operational examples shown are illustrative worked cases used to exercise the structure, not data from a live system.
 </p>
 
 | Artifact | Lifecycle stage | Evidence | Core design principle |
@@ -130,6 +130,7 @@ Five of these are published in full and span the deployment lifecycle. Four are 
 | [Dependency register]({{ '/artifacts/dependency-register/' | relative_url }}) | Infrastructure / continuity | <span class="badge badge-project">Project-derived</span> | The risk is not only a wrong model, but an unavailable one; every external dependency needs an owner, a fallback, and a review trigger |
 | [Agent risk-control matrix]({{ '/artifacts/agent-risk-control-matrix/' | relative_url }}) | Agent governance / assurance | <span class="badge badge-project">Project-derived</span> | Each agent risk needs a control, a test that proves it works, a monitored signal, and an audit-evidence record: from promise to evidence |
 | [Post-deployment monitoring table]({{ '/artifacts/monitoring-table/' | relative_url }}) | In-life monitoring | <span class="badge badge-scenario">Scenario-based</span> | Every metric needs a review owner, a trigger threshold, and a required action |
+| [Public disclosure summary]({{ '/artifacts/public-disclosure-summary/' | relative_url }}) | Public accountability | <span class="badge badge-project">Project-derived</span> | Voluntarily held to a public-sector transparency standard; if a non-user cannot understand what the system does, does not do, who is responsible, and how to challenge it, it is not publicly accountable |
 
 **Further instruments** (available, sanitized, on request):
 
