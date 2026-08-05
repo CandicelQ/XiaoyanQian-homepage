@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Qian;Xiaoyan;;;
+FN:Xiaoyan Qian
+TITLE:R&D Manager and Functional Lab Lead, HKU-Avnet Joint AI Laboratory
+ORG:HKU-Avnet Joint AI Laboratory
+EMAIL;TYPE=INTERNET:qianxy10@connect.hku.hk
+EMAIL;TYPE=INTERNET:xyqian@eee.hku.hk
+URL;TYPE=Homepage:https://xiaoyanqian.com
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/xiaoyan-qian-b2256b88/
+URL;TYPE=GoogleScholar:https://scholar.google.com/citations?user=XNdT5EMAAAAJ
+URL;TYPE=ORCID:https://orcid.org/0000-0003-4426-0667
+NOTE:AI PhD (The University of Hong Kong). I build AI prototypes and translate them into the governance a hospital, a regulator, and a legal team can each act on.
+END:VCARD

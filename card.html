@@ -1,0 +1,150 @@
+---
+layout: null
+title: "Xiaoyan Qian — Digital Business Card"
+permalink: /card/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Xiaoyan Qian — Digital Business Card</title>
+<meta name="description" content="Contact card for Xiaoyan Qian, Medical AI Governance & Regulatory Science.">
+<style>
+  :root {
+    --ink: #1a2333;
+    --accent: #14507a;
+    --accent-light: #eaf2f8;
+    --muted: #5b6572;
+    --line: #e2e6ea;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: #f4f6f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 24px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    max-width: 420px;
+    width: 100%;
+    padding: 32px 28px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  }
+  .name {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 0 0 4px;
+  }
+  .title {
+    font-size: 14px;
+    color: var(--accent);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0 0 2px;
+  }
+  .org {
+    font-size: 13px;
+    color: var(--muted);
+    margin: 0 0 18px;
+  }
+  .tagline {
+    font-size: 13.5px;
+    color: var(--muted);
+    line-height: 1.5;
+    margin: 0 0 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .qr-wrap {
+    text-align: center;
+    margin: 0 0 18px;
+  }
+  .qr-wrap img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+  }
+  .qr-caption {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 8px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .links a {
+    display: block;
+    text-decoration: none;
+    color: var(--ink);
+    background: var(--accent-light);
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .links a:hover { background: #dcebf5; }
+  .links a .label {
+    color: var(--accent);
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  .save-contact {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .save-contact:hover { background: var(--ink); }
+  .back {
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+    font-size: 12.5px;
+    color: var(--muted);
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <p class="name">Xiaoyan Qian</p>
+    <p class="title">R&amp;D Manager and Functional Lab Lead</p>
+    <p class="org">HKU-Avnet Joint AI Laboratory</p>
+    <p class="tagline">Medical AI governance &amp; regulatory science. I build AI prototypes and translate them into the governance a hospital, a regulator, and a legal team can each act on.</p>
+
+    <div class="qr-wrap">
+      <img src="{{ '/assets/img/linkedin-qr.png' | relative_url }}" alt="QR code to LinkedIn profile">
+      <p class="qr-caption">Scan to connect on LinkedIn</p>
+    </div>
+
+    <div class="links">
+      <a href="{{ '/' | relative_url }}"><span class="label">Homepage</span>xiaoyanqian.com</a>
+      <a href="https://www.linkedin.com/in/xiaoyan-qian-b2256b88/"><span class="label">LinkedIn</span>xiaoyan-qian-b2256b88</a>
+      <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ"><span class="label">Scholar</span>Google Scholar profile</a>
+      <a href="https://orcid.org/0000-0003-4426-0667"><span class="label">ORCID</span>0000-0003-4426-0667</a>
+      <a href="mailto:qianxy10@connect.hku.hk"><span class="label">Email</span>qianxy10@connect.hku.hk</a>
+    </div>
+
+    <a class="save-contact" href="{{ '/xiaoyan-qian.vcf' | relative_url }}" download>Save to Contacts (.vcf)</a>
+    <a class="back" href="{{ '/' | relative_url }}">&larr; Back to homepage</a>
+  </div>
+</body>
+</html>
