@@ -19,9 +19,9 @@ The medical digital twin I build is a pre-deployment research prototype, so it i
 
 ## The summary
 
-**1. What it does.** It is a supportive tool that monitors health signals, explains what they may mean in plain language, and flags when a person should seek clinical attention.
+**1. What it does.** It is a supportive tool that monitors health signals, explains what they may mean in plain language, is explicit about what remains uncertain, and flags when a person should seek clinical attention.
 
-**2. What it does not do.** It does not diagnose. It does not replace a doctor or nurse. It does not decide or change treatment. It is not an emergency service.
+**2. What it does not do.** It does not diagnose. It does not replace a doctor or nurse. It does not decide or change treatment. It is not an emergency service. When information is missing or a question falls outside what it can safely address, it says so plainly rather than giving a confident-sounding answer.
 
 **3. Who is responsible.** Accountability sits with named roles, not with the software: an AI governance lead is accountable for how the system is allowed to behave; a clinical safety owner is accountable for patient safety; the project sponsor is accountable at the institutional level. No part of that responsibility is transferred to the system or to the patient.
 
