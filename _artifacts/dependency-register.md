@@ -21,7 +21,7 @@ This artifact is drawn from the governance pack (v0.2) of the patient-facing med
 
 ## Why I built this (builder's perspective)
 
-I did not add this because of a news headline. While building the twin's 3D generation and patient-facing explanation components, I repeatedly faced a concrete choice: use a stronger third-party hosted model I do not control, or a weaker component I can run and own inside our own environment. On a deadline, the pull is always toward the hosted model, because it makes the demonstration better today.
+While building the twin's 3D generation and patient-facing explanation components, I repeatedly faced a concrete choice: use a stronger third-party hosted model I do not control, or a weaker component I can run and own inside our own environment. On a deadline, the pull is always toward the hosted model, because it makes the demonstration better today.
 
 The question that does not show up in a demonstration is the one this register captures: if that hosted model changed its terms, raised its price, deprecated the version I validated against, or became unavailable for a policy reason, what exactly happens to the patient-facing feature, and who is responsible for that outcome? A dependency I chose for convenience becomes a governed decision only once it has an owner and a fallback, not just an API key that happens to work today. This is the builder's version of governance: I am naming the shortcuts I was tempted to take while building, and turning them into decisions someone can review.
 
