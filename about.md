@@ -10,6 +10,8 @@ permalink: /about/
 
 I build AI prototypes and translate them into the governance a hospital, a regulator, and a legal team can each act on, for high-risk medical and regulatory contexts. I am an AI PhD (The University of Hong Kong), R&D Manager and Functional Lab Lead at the HKU-Avnet Joint AI Laboratory, where I drive the development and governance of a patient-facing medical digital twin, covering model design, cross-party coordination, deployment planning, clinical risk considerations, and responsible AI documentation.
 
+The capability is high-stakes AI governance; medical AI is where I prove it, because it is the domain with the least room for an ungoverned system. The discipline itself, deciding what a system may claim, who is accountable when it fails, and where the audit trail lives, transfers to any setting where AI carries real consequences: financial, regulatory, and public-sector.
+
 ## Following technology into governance
 
 I did not start in governance. I started in AI research, working on three-dimensional perception and automatic annotation, where a model is only as good as the data behind it and the evaluation around it. That work taught me how AI systems are actually built, where they quietly fail, and why "reliable" means something more than a high score on a benchmark.
