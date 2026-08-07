@@ -58,8 +58,14 @@ body.home .site-name { display: none; }
 .hero h1 { font-size: 2.2rem; margin: 0 0 0.4rem; }
 .hero .tagline { font-size: 1.2rem; color: var(--accent); font-family: Georgia, serif; margin: 0 0 0.35rem; }
 .hero .tagline .sep { color: var(--muted); margin: 0 0.45rem; font-weight: 400; }
-.hero .credential { font-size: 0.9rem; color: var(--muted); margin: 0 0 1.1rem; }
+.hero .credential { font-size: 0.9rem; color: var(--muted); margin: 0 0 0.6rem; }
+.hero .proof-row { display: flex; flex-wrap: wrap; gap: 0.4rem 0.55rem; margin: 0 0 1.1rem; padding: 0; }
+.hero .proof-row span { font-size: 0.82rem; font-weight: 600; color: var(--accent); background: #eef3f8; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; }
 .hero .lede { font-size: 1.05rem; color: var(--ink); max-width: 46em; }
+
+/* Governance capability chips */
+.caps { display: flex; flex-wrap: wrap; gap: 0.4rem 0.55rem; margin: 0.6rem 0 1.4rem; padding: 0; list-style: none; }
+.caps li { font-size: 0.82rem; font-weight: 600; color: var(--ink); background: #fbfcfd; border: 1px solid var(--line); border-radius: 6px; padding: 0.25rem 0.7rem; }
 
 /* Cards */
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; }

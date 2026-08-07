@@ -7,6 +7,7 @@ title: Home
   <h1>Xiaoyan Qian</h1>
   <p class="tagline"><span class="role">High-Risk AI Governance</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
   <p class="credential">AI PhD, The University of Hong Kong &middot; R&amp;D Manager and Functional Lab Lead, HKU-Avnet Joint AI Laboratory</p>
+  <p class="proof-row"><span>AI PhD (HKU)</span><span>R&amp;D Manager, HKU-Avnet Joint AI Lab</span><span>Medical Digital Twin</span></p>
   <div class="hero-body">
     <p class="lede">
       In any high-stakes AI system, the deciding questions come after the model works:
@@ -34,6 +35,15 @@ title: Home
 I came to governance from the builder's side: at the HKU-Avnet Joint AI Laboratory I build a patient-facing medical digital twin, and govern what it may claim and who answers for it. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
 
 ## Start here
+
+<ul class="caps">
+  <li>Risk assessment</li>
+  <li>Human oversight</li>
+  <li>Monitoring</li>
+  <li>Incident response</li>
+  <li>Change control</li>
+  <li>Deployment readiness</li>
+</ul>
 
 <ul class="cards">
   <li class="card">
