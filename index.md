@@ -7,7 +7,7 @@ title: Home
   <h1>Xiaoyan Qian</h1>
   <p class="tagline"><span class="role">High-Risk AI Governance</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
   <p class="credential">AI PhD, The University of Hong Kong &middot; R&amp;D Manager and Functional Lab Lead, HKU-Avnet Joint AI Laboratory</p>
-  <p class="proof-row"><span>AI PhD (HKU)</span><span>R&amp;D Manager, HKU-Avnet Joint AI Lab</span><span>Medical Digital Twin</span></p>
+  <!-- <p class="proof-row"><span>AI PhD (HKU)</span><span>R&amp;D Manager, HKU-Avnet Joint AI Lab</span><span>Medical Digital Twin</span></p> -->
   <div class="hero-body">
     <p class="lede">
       In any high-stakes AI system, the deciding questions come after the model works:
