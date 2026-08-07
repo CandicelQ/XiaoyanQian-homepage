@@ -12,7 +12,7 @@
     <div class="wrap header-inner">
       <a class="site-name" href="{{ '/' | relative_url }}">
         <span class="site-name-main">Xiaoyan Qian</span>
-        <span class="site-role">High-Risk AI Governance &amp; Regulatory Science</span>
+        <span class="site-role">{% if page.url contains '/portfolio' or page.url contains '/cases' or page.url contains '/artifacts' or page.url contains '/writing' %}Medical AI Governance &amp; Regulatory Science{% else %}High-Risk AI Governance &amp; Regulatory Science{% endif %}</span>
       </a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
