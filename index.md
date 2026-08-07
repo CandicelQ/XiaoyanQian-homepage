@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero">
   <h1>Xiaoyan Qian</h1>
-  <p class="tagline"><span class="role">Medical AI Governance</span><span class="sep">&times;</span><span class="role">High-Risk AI Deployment</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
+  <p class="tagline"><span class="role">High-Risk AI Governance</span><span class="sep">&times;</span><span class="role">Medical AI</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
   <p class="credential">AI PhD, The University of Hong Kong &middot; R&amp;D Manager and Functional Lab Lead, HKU-Avnet Joint AI Laboratory</p>
   <div class="hero-body">
     <p class="lede">
