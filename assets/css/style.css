@@ -139,6 +139,7 @@ th { background: var(--accent-light); font-weight: 600; }
 
 /* "Who this is for" table: widen the question and where-to-look columns, narrow the demonstrates column */
 .who-for table { table-layout: fixed; }
+.who-for th, .who-for td { overflow-wrap: anywhere; word-break: break-word; }
 .who-for th:nth-child(1), .who-for td:nth-child(1) { width: 14%; }
 .who-for th:nth-child(2), .who-for td:nth-child(2) { width: 27%; }
 .who-for th:nth-child(3), .who-for td:nth-child(3) { width: 28%; }
