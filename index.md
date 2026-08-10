@@ -4,25 +4,29 @@ title: Home
 ---
 
 <div class="hero">
+  <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan Qian">
   <h1>Xiaoyan Qian</h1>
   <p class="tagline"><span class="role">High-Risk AI Governance</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
+  <p class="contact-row">
+    <a href="mailto:qianxy10@connect.hku.hk">Email</a>
+    <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a>
+    <a href="https://www.linkedin.com/in/xiaoyan-qian-b2256b88/">LinkedIn</a>
+    <a href="https://orcid.org/0000-0003-4426-0667">ORCID</a>
+  </p>
   <p class="credential">AI PhD, The University of Hong Kong &middot; R&amp;D Manager and Functional Lab Lead, HKU-Avnet Joint AI Laboratory</p>
   <!-- <p class="proof-row"><span>AI PhD (HKU)</span><span>R&amp;D Manager, HKU-Avnet Joint AI Lab</span><span>Medical Digital Twin</span></p> -->
-  <div class="hero-body">
-    <p class="lede">
-      In any high-stakes AI system, the deciding questions come after the model works:
-      who is accountable, what the people affected are owed, who can override it. I work
-      these questions where they bite hardest, in medical AI, where an ungoverned output
-      reaches a patient. I build these systems and the governance they need before they
-      do: one person doing what usually takes two. What I build is the connective tissue
-      a clinical, ethics, and legal team needs to govern together, the shared scaffolding
-      most projects under-resource. In practice that means executable governance
-      frameworks, audit evidence, accountability structures, and regulatory-risk language
-      a hospital, regulator, or legal team can act on, and I translate governance goals
-      back into requirements a team can build against.
-    </p>
-    <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan Qian">
-  </div>
+  <p class="lede">
+    In any high-stakes AI system, the deciding questions come after the model works:
+    who is accountable, what the people affected are owed, who can override it. I work
+    these questions where they bite hardest, in medical AI, where an ungoverned output
+    reaches a patient. I build these systems and the governance they need before they
+    do: one person doing what usually takes two. What I build is the connective tissue
+    a clinical, ethics, and legal team needs to govern together, the shared scaffolding
+    most projects under-resource. In practice that means executable governance
+    frameworks, audit evidence, accountability structures, and regulatory-risk language
+    a hospital, regulator, or legal team can act on, and I translate governance goals
+    back into requirements a team can build against.
+  </p>
 </div>
 
 <div class="role-wording">
