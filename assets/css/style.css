@@ -137,6 +137,13 @@ table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9re
 th, td { border: 1px solid var(--line); padding: 0.45rem 0.6rem; text-align: left; vertical-align: top; }
 th { background: var(--accent-light); font-weight: 600; }
 
+/* "Who this is for" table: widen the question and where-to-look columns, narrow the demonstrates column */
+.who-for table { table-layout: fixed; }
+.who-for th:nth-child(1), .who-for td:nth-child(1) { width: 14%; }
+.who-for th:nth-child(2), .who-for td:nth-child(2) { width: 27%; }
+.who-for th:nth-child(3), .who-for td:nth-child(3) { width: 28%; }
+.who-for th:nth-child(4), .who-for td:nth-child(4) { width: 31%; }
+
 /* Case page */
 .case .decision-state { background: var(--accent-light); border-left: 3px solid var(--accent); padding: 0.5rem 0.8rem; font-size: 0.95rem; }
 .backlink { margin-top: 2.5rem; font-size: 0.92rem; }
