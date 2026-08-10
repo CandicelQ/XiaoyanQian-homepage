@@ -62,7 +62,7 @@ The fastest way to see how this fits together: seven risk domains, each with the
 | Intended use &amp; boundary | Scope creep from monitoring into diagnosis or off-label use | [Pre-deployment charter]({{ '/artifacts/pre-deployment-charter/' | relative_url }}) | Non-use list, decision-rights record |
 | Data | Untrustworthy, unlawful, or untraceable data; missingness read as "no risk" | Data readiness gate + provenance/lineage register | Readiness status, lineage entries, lawful-basis record |
 | Agents | Agent sprawl, over-scoped access, privilege creep, unauditable actions | [Agent decision rights]({{ '/cases/agent-decision-rights/' | relative_url }}) · [Agent risk-control matrix]({{ '/artifacts/agent-risk-control-matrix/' | relative_url }}) | Registry, access-review logs, control tests |
-| Change control | Silent model updates; no safe version left to run | Change control + predetermined change control plan | Version logs, revalidation records, fallback trigger |
+| Change control | Silent model updates; no safe version left to run | [Change control & PCCP case]({{ '/cases/model-change-control/' | relative_url }}) · [Model change control log]({{ '/artifacts/change-control-log/' | relative_url }}) | Version logs, revalidation records, fallback trigger |
 | Assurance | The builder self-certifies; delivery pressure overrides safety | Independent review, kept separate from delivery sign-off | Independent sign-off record, audit confirmation |
 | Post-market signals | Behavioural harm invisible to a green dashboard | [Model-drift case]({{ '/cases/model-drift/' | relative_url }}) · [Monitoring table]({{ '/artifacts/monitoring-table/' | relative_url }}) · [Risk register]({{ '/artifacts/risk-register/' | relative_url }}) | Signal log, escalation records, drift analyses |
 | Dependencies | A hard-to-replace input (model, cloud, sensor, specialist, consumable) fails | [Dependency register]({{ '/artifacts/dependency-register/' | relative_url }}) | Owner, fallback, and review-trigger per dependency |
@@ -124,7 +124,7 @@ approval owner, effective date, and known limitations.
 </p>
 
 <p class="section-intro">
-Seven of these are published in full. Five span the deployment lifecycle; one is the public-facing accountability document any non-user can read; and one governs the external frameworks themselves — the difference between citing a standard once and keeping it live after it is revised. Four are drawn from the governance pack I developed for my medical digital twin (project-derived, sanitized): the pre-deployment charter, the risk register, the dependency register, and the agent risk-control matrix. The monitoring table is a scenario-based instrument. Because the twin is pre-deployment, the operational examples shown are illustrative worked cases used to exercise the structure, not data from a live system.
+Eight of these are published in full. Six span the deployment lifecycle; one is the public-facing accountability document any non-user can read; and one governs the external frameworks themselves — the difference between citing a standard once and keeping it live after it is revised. Five are drawn from the governance pack I developed for my medical digital twin (project-derived, sanitized): the pre-deployment charter, the risk register, the dependency register, the agent risk-control matrix, and the model change control log. The monitoring table is a scenario-based instrument. Because the twin is pre-deployment, the operational examples shown are illustrative worked cases used to exercise the structure, not data from a live system.
 </p>
 
 | Artifact | Lifecycle stage | Evidence | Core design principle |
@@ -136,6 +136,7 @@ Seven of these are published in full. Five span the deployment lifecycle; one is
 | [Post-deployment monitoring table]({{ '/artifacts/monitoring-table/' | relative_url }}) | In-life monitoring | <span class="badge badge-scenario">Scenario-based</span> | Every metric needs a review owner, a trigger threshold, and a required action |
 | [Public disclosure summary]({{ '/artifacts/public-disclosure-summary/' | relative_url }}) | Public accountability | <span class="badge badge-project">Project-derived</span> | Voluntarily held to a public-sector transparency standard; if a non-user cannot understand what the system does, does not do, who is responsible, and how to challenge it, it is not publicly accountable |
 | [Standards & frameworks register]({{ '/artifacts/standards-register/' | relative_url }}) | Standards governance | <span class="badge badge-project">Project-derived</span> | Adopting a framework is not a one-time act; each standard is a tracked object with a version, mapped controls, an owner, and a change-impact plan — governing under a framework, not just citing one |
+| [Model change control log]({{ '/artifacts/change-control-log/' | relative_url }}) | Change governance | <span class="badge badge-project">Project-derived</span> | No silent updates: every change carries a risk class, a revalidation trigger, a named approval owner, and a retained evidence trail, with a safe prior version always available to fall back to |
 
 **Further instruments** (available, sanitized, on request):
 
@@ -143,7 +144,6 @@ Seven of these are published in full. Five span the deployment lifecycle; one is
 | --- | --- | --- |
 | Incident response SOP | Time-boxed response to drift and safety events (T+1h to T+30d) | Timeline, trigger, owner, action, and output at every step; severity classification and closure updates included |
 | RACI matrix for AI incidents | Allocates responsibility across governance lead, clinicians, data team, vendor, safety committee, legal, and management | Vendors do not decide continued use; data teams do not judge patient safety alone |
-| Model change control log | Classifies changes by risk and defines revalidation and approval owners | If it affects patient safety, clinical leadership approves; if it affects legal duties, compliance approves |
 | Human override log template | Records every accept, modify, or reject decision with reason codes | Oversight is only real when the human has enough information and recorded responsibility to challenge the AI |
 | Vendor due diligence checklist | Screens validation, calibration, subgroup fairness, update policy, audit rights, and rollback clauses | Without audit rights the hospital can only trust the vendor; without liability clauses risk flows to patients |
 | Medical AI audit checklist | Eight-item audit with evidence to check, owner, and frequency | An audit item without evidence to check is an opinion |

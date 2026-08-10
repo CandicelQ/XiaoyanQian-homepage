@@ -45,7 +45,7 @@ I came to governance from the builder's side: at the HKU-Avnet Joint AI Laborato
   <li><a href="{{ '/cases/human-override-audit/' | relative_url }}">Human oversight</a></li>
   <li><a href="{{ '/artifacts/monitoring-table/' | relative_url }}">Monitoring</a></li>
   <li><a href="{{ '/cases/model-drift/' | relative_url }}">Incident response</a></li>
-  <li><a href="{{ '/portfolio/' | relative_url }}#at-a-glance">Change control</a></li>
+  <li><a href="{{ '/cases/model-change-control/' | relative_url }}">Change control</a></li>
   <li><a href="{{ '/artifacts/pre-deployment-charter/' | relative_url }}">Deployment readiness</a></li>
 </ul>
 
@@ -59,13 +59,13 @@ I came to governance from the builder's side: at the HKU-Avnet Joint AI Laborato
   <li class="card">
     <p class="badge badge-scenario">Scenario-based</p>
     <h3>Medical AI Governance Casebook</h3>
-    <p>Structured governance cases on model drift, AI scribes, LLM triage, patient-facing chatbots, agent decision rights, and human override, each with risks, RACI, audit evidence, and a decision state.</p>
+    <p>Structured governance cases across the AI-SaMD lifecycle: model drift, change control, AI scribes, LLM triage, patient-facing chatbots, agent decision rights, and human override. Each works through risks, RACI, audit evidence, and an explicit decision state.</p>
     <a href="{{ '/portfolio/' | relative_url }}#casebook">Read cases →</a>
   </li>
   <li class="card">
     <p class="badge badge-published">Research</p>
     <h3>Accountable Patient-facing Interpretation</h3>
-    <p>When a medical AI speaks to a patient about their own body, what makes that voice accountable? My research program answers this, building on first-author work at AAAI and IJCV: a five-layer accountability map, a Grade 0 to 4 maturity framework, and a named consent harm, unmarked domain-crossing, where a system slides from monitoring to inference with no signal a line was crossed.</p>
+    <p>When a medical AI speaks to a patient about their own body, what makes that voice accountable? Grounded in first-author work at AAAI and IJCV, my research answers this with a five-layer accountability map, a Grade 0 to 4 maturity framework, and a named consent harm — unmarked domain-crossing.</p>
     <a href="{{ '/writing/' | relative_url }}">Read more →</a>
   </li>
 </ul>
