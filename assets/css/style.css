@@ -66,7 +66,10 @@ body.home .site-name { display: none; }
 
 /* Governance capability chips */
 .caps { display: flex; flex-wrap: wrap; gap: 0.4rem 0.55rem; margin: 0.6rem 0 1.4rem; padding: 0; list-style: none; }
-.caps li { font-size: 0.82rem; font-weight: 600; color: var(--ink); background: #fbfcfd; border: 1px solid var(--line); border-radius: 6px; padding: 0.25rem 0.7rem; }
+.caps li { font-size: 0.82rem; font-weight: 600; background: #fbfcfd; border: 1px solid var(--line); border-radius: 6px; transition: border-color 0.15s, background 0.15s; }
+.caps li a { display: block; color: var(--ink); padding: 0.25rem 0.7rem; text-decoration: none; }
+.caps li:hover { border-color: var(--accent); background: var(--accent-light); }
+.caps li:hover a { color: var(--accent); }
 
 /* Role wording (style current-focus line) */
 .role-wording { border-left: 3px solid var(--accent); background: var(--accent-light); padding: 0.9rem 1.2rem; margin: 0 0 2rem; border-radius: 0 6px 6px 0; }

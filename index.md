@@ -41,12 +41,12 @@ I came to governance from the builder's side: at the HKU-Avnet Joint AI Laborato
 ## Start here
 
 <ul class="caps">
-  <li>Risk assessment</li>
-  <li>Human oversight</li>
-  <li>Monitoring</li>
-  <li>Incident response</li>
-  <li>Change control</li>
-  <li>Deployment readiness</li>
+  <li><a href="{{ '/artifacts/risk-register/' | relative_url }}">Risk assessment</a></li>
+  <li><a href="{{ '/cases/human-override-audit/' | relative_url }}">Human oversight</a></li>
+  <li><a href="{{ '/artifacts/monitoring-table/' | relative_url }}">Monitoring</a></li>
+  <li><a href="{{ '/cases/model-drift/' | relative_url }}">Incident response</a></li>
+  <li><a href="{{ '/portfolio/' | relative_url }}#at-a-glance">Change control</a></li>
+  <li><a href="{{ '/artifacts/pre-deployment-charter/' | relative_url }}">Deployment readiness</a></li>
 </ul>
 
 <ul class="cards">
