@@ -87,7 +87,7 @@ body.home .site-name { display: none; }
 .cards { display: grid; grid-template-columns: 1fr 1fr 1.08fr; gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; align-items: stretch; }
 .card { position: relative; display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 8px; padding: 1.1rem 1.2rem; background: #fbfcfd; transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s; cursor: pointer; }
 .card:hover { border-color: var(--accent); box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06); transform: translateY(-2px); }
-.card .badge { align-self: flex-start; }
+.card .badge { align-self: center; }
 .card h3 { margin: 0 0 0.5rem; font-size: 1.05rem; min-height: 3.3em; }
 .card p { margin: 0 0 0.6rem; font-size: 0.93rem; color: var(--muted); }
 .card > a { margin-top: auto; }
