@@ -84,7 +84,7 @@ body.home .site-name { display: none; }
 .copy-bio-btn:hover { background: var(--accent); color: #fff; }
 
 /* Cards */
-.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; align-items: stretch; }
+.cards { display: grid; grid-template-columns: 1fr 1fr 1.35fr; gap: 1rem; margin: 1.6rem 0; padding: 0; list-style: none; align-items: stretch; }
 .card { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 8px; padding: 1.1rem 1.2rem; background: #fbfcfd; }
 .card h3 { margin: 0 0 0.5rem; font-size: 1.05rem; }
 .card p { margin: 0 0 0.6rem; font-size: 0.93rem; color: var(--muted); }
@@ -150,6 +150,10 @@ th { background: var(--accent-light); font-weight: 600; }
 .readiness-list { max-width: 46em; margin: 0 0 1.4rem; padding-left: 1.1rem; }
 .readiness-list li { margin: 0.3rem 0; font-size: 0.95rem; }
 .readiness-list strong { color: var(--ink); }
+
+@media (max-width: 720px) {
+  .cards { grid-template-columns: 1fr; }
+}
 
 @media (max-width: 600px) {
   .site-nav { flex-wrap: wrap; }
