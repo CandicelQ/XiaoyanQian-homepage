@@ -22,6 +22,23 @@ Full internal materials remain private; what appears here focuses on governance 
 Credibility in governance work starts with honest claims about one's own evidence, so every item carries one of three labels. <strong>Project-derived</strong>: work produced inside a real medical AI project, sanitized for public sharing; it reflects pre-deployment governance design, not post-market experience. <strong>Scenario-based</strong>: governance exercises built on realistic deployment patterns and public regulatory material; they demonstrate judgement, not deployment history. <strong>Research</strong>: manuscripts and public writing, with their actual publication status stated.
 </p>
 
+<h2 id="who-for">Who this is for</h2>
+
+<p class="section-intro">
+Different readers come to the same governance work looking for different proof. This section maps four common problems to the specific evidence here that answers them &mdash; and is honest about what each item does and does not demonstrate. The controls repeat across all four rows on purpose: the skill is transferable even where the sector is not.
+</p>
+
+| If your problem is&hellip; | The question you are really asking | Where to look here | What it demonstrates &mdash; and its limit |
+| --- | --- | --- | --- |
+| **Independent AI / model risk** &mdash; a second line challenging the first | Can this person judge, independently, whether an AI risk is *actually* managed rather than only documented? | The [governance-at-a-glance](#at-a-glance) map, the [risk register]({{ '/artifacts/risk-register/' | relative_url }}), the [agent risk-control matrix]({{ '/artifacts/agent-risk-control-matrix/' | relative_url }}) | Build-vs-sign-off separation and a claim&rarr;test&rarr;evidence&rarr;owner discipline that lets any control be challenged. It is pre-deployment design, not a second-line track record inside a bank. |
+| **Enterprise AI governance** &mdash; running the full lifecycle | Can this person govern an AI system across its whole life, not just at launch? | The [pre-deployment charter]({{ '/artifacts/pre-deployment-charter/' | relative_url }}), [change control log]({{ '/artifacts/change-control-log/' | relative_url }}), [standards register]({{ '/artifacts/standards-register/' | relative_url }}), [monitoring table]({{ '/artifacts/monitoring-table/' | relative_url }}) | Registration&rarr;risk&rarr;approval&rarr;monitoring&rarr;change, each stage with an owner, a trigger, and evidence &mdash; shown on one system, generalised into reusable instruments. |
+| **Clinical / medical AI** &mdash; deploying patient-facing AI safely | Can this person tell a promising prototype from a deployment-ready system? | The [flagship project](#projects), the [public disclosure summary]({{ '/artifacts/public-disclosure-summary/' | relative_url }}), and the drift, override, and escalation [cases](#casebook) | Deployment-readiness reasoning from someone who builds the system they govern. The twin is pre-deployment; this is not post-market experience. |
+| **Regulator / public-policy** &mdash; turning technical risk into decisions | Can this person turn technical evidence into decision-ready controls and a route for the affected person to challenge a decision? | The rights/remedy tables in the [casebook](#casebook), the [public disclosure summary]({{ '/artifacts/public-disclosure-summary/' | relative_url }}), the [standards register]({{ '/artifacts/standards-register/' | relative_url }}) | Technical risk rendered as policy-grade controls, transparency, and named challenge routes &mdash; not a claim to regulatory authority. |
+
+<p class="section-intro">
+None of these rows claims a decision right I do not hold &mdash; final residual-risk acceptance, a bank second-line mandate, clinical risk acceptance, or regulatory power. Each item is labelled by evidence type below, and full internal materials stay private. If one row is your problem, pick it and <a href="{{ '/about/' | relative_url }}">let us walk through</a> how it maps to your system.
+</p>
+
 <h2 id="projects">Flagship project</h2>
 
 ### Patient-facing Medical Digital Twin: Building the System and Its Governance
