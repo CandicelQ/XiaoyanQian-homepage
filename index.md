@@ -40,13 +40,15 @@ I came to governance from the builder's side: at the HKU-Avnet Joint AI Laborato
 
 ## Start here
 
+<p class="muted">These are the gates one patient-facing system passes on the way from prototype to responsible deployment, in the order they arise.</p>
+
 <ul class="caps">
   <li><a href="{{ '/artifacts/risk-register/' | relative_url }}">Risk assessment</a></li>
   <li><a href="{{ '/cases/human-override-audit/' | relative_url }}">Human oversight</a></li>
+  <li><a href="{{ '/artifacts/pre-deployment-charter/' | relative_url }}">Deployment readiness</a></li>
   <li><a href="{{ '/artifacts/monitoring-table/' | relative_url }}">Monitoring</a></li>
   <li><a href="{{ '/cases/model-drift/' | relative_url }}">Incident response</a></li>
   <li><a href="{{ '/cases/model-change-control/' | relative_url }}">Change control</a></li>
-  <li><a href="{{ '/artifacts/pre-deployment-charter/' | relative_url }}">Deployment readiness</a></li>
 </ul>
 
 <ul class="cards">

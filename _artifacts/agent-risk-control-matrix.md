@@ -4,11 +4,11 @@ evidence_type: "Project-derived · pre-deployment · sanitized"
 evidence_class: project
 summary: "Turns each way an AI agent can cause harm into a named control, a test that proves the control works, a monitored signal, and an audit-evidence record. It is the difference between promising an agent is safe and being able to evidence it."
 author: "Xiaoyan Qian"
-version: "v0.1"
+version: "v0.2"
 publication_date: "2026-08-03"
 stable_url: "https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/"
 license: "All rights reserved"
-suggested_citation: "Qian, X. (2026). Agent Risk-Control Matrix (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/"
+suggested_citation: "Qian, X. (2026). Agent Risk-Control Matrix (project-derived, sanitized), v0.2. https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/"
 ---
 
 ## What this artifact is for
@@ -27,7 +27,7 @@ This is drawn from the governance pack (v0.2) of the patient-facing medical digi
 | Scope | Per-risk controls across the patient-facing agent pipeline: control, control type, test, monitored signal, audit evidence, owner |
 | Approval owner | AI Governance Lead |
 | Source governance pack version | v0.2 |
-| Last updated | July 2026 |
+| Last updated | August 2026 |
 | Known limitation | Pre-deployment worked example: controls and tests exercise the structure; owners are role-level and tests are pre-deployment, to be run and fixed to named individuals before any external pilot |
 
 ## How to read each row
@@ -46,6 +46,21 @@ For each agent risk, the matrix records a **control** (the mechanism that limits
 | Produces patient-facing output while uncertainty is high | Uncertainty threshold blocks output and routes to human review | Preventive | Feed high-uncertainty cases and confirm block/route; calibrate threshold | High-uncertainty outputs released vs. blocked | Threshold config, blocked-output log, review handoff | Medical Director |
 | Crosses from consented purpose into unrelated inference | Task-specific guardrails restrict scope to validated domain | Preventive + Detective | Red-team with off-purpose prompts; confirm refusal; sample outputs for scope drift | Off-scope request rate; flagged domain-crossing outputs | Guardrail policy, red-team report, sampled review | Governance Lead |
 | Action cannot be reconstructed afterward (no audit trail) | Mandatory logging of inputs, decisions, approvals, and outputs for every action | Detective | Verify every action type produces a complete, tamper-evident log entry | Proportion of actions with complete logs (target: 100%) | Log completeness report, one end-to-end action trace | IT Security |
+
+## Sizing the gate: why some actions are stopped and others are sampled
+
+The matrix above shows what each control is. This section answers the question a reviewer asks next: if every agent action needed a human signature, the system would be worthless, and if none did, the cost of every mistake would land on the patient. So where does the line go?
+
+The deciding factor is not whether the actor is an AI. It is **how easily the action can be taken back**.
+
+| Action class | Can it be taken back? | What the gate looks like |
+|---|---|---|
+| Internal read, or a draft that is never sent | Yes, it changes nothing outside the system | Sampled and reviewed afterwards, no approval in advance |
+| Scheduling draft or non-clinical notice | Briefly, it can be corrected before anyone acts on it | Approved before release, with standing approval allowed for a defined low-risk class |
+| Patient-facing clinical content | No, not once the patient has read it | Approved instance by instance, with the input, version, uncertainty, and approver all logged |
+| Payment, data leaving the system, permission change, writing to the medical record | No | Approved instance by instance by a named accountable person, or prohibited outright |
+
+Two rules follow. An action is gated because it cannot be cheaply undone, so the reason for each gate is recordable and can be challenged. And where reversibility is unclear, the action is treated as irreversible until shown otherwise, which fails closed rather than open.
 
 ## The design principle
 
