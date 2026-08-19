@@ -3,6 +3,16 @@ description: High-Risk AI Governance and Regulatory Science
 tagline: High-Risk AI Governance and Regulatory Science
 url: "https://xiaoyanqian.com"
 baseurl: ""
+author:
+  name: Xiaoyan Qian
+
+plugins:
+  - jekyll-feed
+
+feed:
+  collections:
+    notes:
+      path: "/feed.xml"
 
 collections:
   cases:
