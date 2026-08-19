@@ -9,7 +9,10 @@ author:
 plugins:
   - jekyll-feed
 
+# The site has no _posts, so move jekyll-feed's default (empty) posts feed out of
+# the way and publish the notes collection at the canonical /feed.xml instead.
 feed:
+  path: "/posts.xml"
   collections:
     notes:
       path: "/feed.xml"
