@@ -4,11 +4,11 @@ evidence_type: "Public transparency record · sanitized"
 evidence_class: scenario
 summary: "A plain-language public summary of the medical digital twin, held to a public-sector algorithmic transparency standard. It answers four questions any citizen, reviewer, or journalist can read without being a user: what it does, what it does not do, who is responsible, and how to raise a concern."
 author: "Xiaoyan Qian"
-version: "v0.1"
+version: "v0.2"
 publication_date: "2026-08-05"
 stable_url: "https://xiaoyanqian.com/artifacts/public-disclosure-summary/"
 license: "All rights reserved"
-suggested_citation: "Qian, X. (2026). Public Disclosure Summary (ATRS-style, voluntary), v0.1. https://xiaoyanqian.com/artifacts/public-disclosure-summary/"
+suggested_citation: "Qian, X. (2026). Public Disclosure Summary (ATRS-style, voluntary), v0.2. https://xiaoyanqian.com/artifacts/public-disclosure-summary/"
 ---
 
 ## Why this exists
@@ -21,7 +21,7 @@ The medical digital twin I build is a pre-deployment research prototype, so it i
 
 **1. What it does.** It is a supportive tool that monitors health signals, explains what they may mean in plain language, is explicit about what remains uncertain, and flags when a person should seek clinical attention.
 
-**2. What it does not do.** It does not diagnose. It does not replace a doctor or nurse. It does not decide or change treatment. It is not an emergency service. When information is missing or a question falls outside what it can safely address, it says so plainly rather than giving a confident-sounding answer.
+**2. What it does not do.** It does not diagnose. It does not replace a doctor or nurse. It does not decide or change treatment. It is not an emergency service. When information is missing or a question falls outside what it can safely address, it does not give a confident-sounding answer. It also does not simply stop: it says what it could not determine, what would settle it, and what the person can usefully do in the meantime. Declining is easy for any system; being left with nothing to act on is what sends a person somewhere less safe.
 
 **3. Who is responsible.** Accountability sits with named roles, not with the software: an AI governance lead is accountable for how the system is allowed to behave; a clinical safety owner is accountable for patient safety; the project sponsor is accountable at the institutional level. No part of that responsibility is transferred to the system or to the patient.
 
