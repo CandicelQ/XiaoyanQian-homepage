@@ -24,7 +24,7 @@ This is drawn from the actual governance pack (v0.2) of the medical digital twin
 | Project stage | Incubation / pre-deployment |
 | Prepared by | Developed and drafted as the project's governance workstream |
 | Prepared for | Executive sponsor and relevant PI review (named internally) |
-| Review status | The underlying project definition and boundaries were circulated to the project's industry sponsor in August 2026 and acknowledged; independent clinical review is scheduled but not yet completed |
+| Review status | The underlying project definition and boundaries were circulated to the project's industry sponsor in August 2026 and acknowledged. The Phase 1 scope and boundaries were also reviewed in August 2026 by an external clinician holding no role in the project at the time; that review narrowed the Phase 1 scope to a single condition and reframed the use case around a specific clinical question. Independent clinical validation has not taken place |
 | Source governance pack version | v0.2 |
 | Last updated | August 2026 |
 | Known limitation | Pre-deployment: no clinical validation or post-market evidence yet exists; this charter defines what must be produced before any external pilot |
