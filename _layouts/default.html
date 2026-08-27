@@ -6,7 +6,6 @@
   <title>{% if page.title and page.title != 'Home' %}{{ page.title }} · {% endif %}{{ site.title }} · High-Risk AI Governance</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} · Notes" href="{{ '/feed.xml' | absolute_url }}">
   <script data-goatcounter="https://xiaoyanqian.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body class="{% if page.url == '/' %}home{% endif %}">
@@ -32,8 +31,19 @@
 
   <footer class="site-footer">
     <div class="wrap">
+      <div class="subscribe">
+        <p class="subscribe-lead">Follow the work</p>
+        <p class="subscribe-note">An occasional email, only when I publish a new note or a governance artifact. No site updates, no noise.</p>
+        <form class="subscribe-form"
+              action="https://buttondown.com/api/emails/embed-subscribe/xy1"
+              method="post"
+              target="popupwindow"
+              onsubmit="window.open('https://buttondown.com/xy1', 'popupwindow')">`
+          <input type="email" name="email" id="bd-email" placeholder="you@example.com" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
       <p>© {{ 'now' | date: "%Y" }} Xiaoyan Qian · High-Risk AI Governance and Regulatory Science</p>
-      <p class="footer-note">Follow new notes by <a href="{{ '/feed.xml' | relative_url }}">RSS</a>. Want these by email? Write to me at <a href="mailto:qianxy10@connect.hku.hk?subject=Please%20add%20me%20to%20the%20notes%20list">qianxy10@connect.hku.hk</a> and I'll add you to the list.</p>
       <p class="footer-note">All portfolio materials on this site are sanitized. Evidence types are labelled explicitly: project-derived, scenario-based, or research.</p>
     </div>
   </footer>

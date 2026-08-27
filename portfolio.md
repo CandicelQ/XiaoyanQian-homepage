@@ -61,7 +61,7 @@ This is my main project. At the HKU-Avnet Joint AI Laboratory, I lead both the e
 
 <!-- DEMO PLACEHOLDER: when ready, replace the last sentence above (or add here) with the embedded demo video + five-layer architecture figure. Gate: (1) Lancet DH Viewpoint accepted/published, (2) demo polished, (3) reviewed for confidentiality. -->
 
-**How I govern it** (Governance Pack, actively maintained; last substantive revision 22 August 2026; sanitized)
+**How I govern it** (Governance Pack v0.2, actively maintained — current revision v0.2.2, July 2026; sanitized)
 
 - **Intended use and boundary definition**: what the current system is (an internal research demonstration), what it is not (a clinically validated or deployment-ready system), and what evidence would be required before any external pilot.
 - **Project charter, role-and-scope clarification, and decision-rights mapping**: who recommends, who approves, and who is consulted at each stage gate across the university, the industry partner, and future clinical partners.
