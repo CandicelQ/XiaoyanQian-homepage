@@ -4,8 +4,8 @@ title: Home
 ---
 
 <div class="hero">
-  <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan Qian">
-  <h1>Xiaoyan Qian</h1>
+  <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan (Candice) Qian">
+  <h1>Xiaoyan (Candice) Qian</h1>
   <p class="tagline"><span class="role">High-Risk AI Governance</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
   <p class="contact-row">
     <a href="mailto:qianxy10@connect.hku.hk">Email</a>
@@ -44,6 +44,7 @@ I came to governance from the builder's side: at the HKU-Avnet Joint AI Laborato
 
 <ul class="caps">
   <li><a href="{{ '/artifacts/risk-register/' | relative_url }}">Risk assessment</a></li>
+  <li><a href="{{ '/artifacts/claims-evidence-register/' | relative_url }}">Evidence and claims</a></li>
   <li><a href="{{ '/cases/human-override-audit/' | relative_url }}">Human oversight</a></li>
   <li><a href="{{ '/artifacts/pre-deployment-charter/' | relative_url }}">Deployment readiness</a></li>
   <li><a href="{{ '/artifacts/monitoring-table/' | relative_url }}">Monitoring</a></li>

@@ -1,10 +1,10 @@
-title: Xiaoyan Qian
+title: Xiaoyan (Candice) Qian
 description: High-Risk AI Governance and Regulatory Science
 tagline: High-Risk AI Governance and Regulatory Science
 url: "https://xiaoyanqian.com"
 baseurl: ""
 author:
-  name: Xiaoyan Qian
+  name: Xiaoyan (Candice) Qian
 
 plugins:
   - jekyll-feed

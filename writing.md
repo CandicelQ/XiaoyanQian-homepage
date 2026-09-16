@@ -27,6 +27,15 @@ Medical digital twins are showing clinical value, but mostly in tightly bounded,
 
 The governance position: a system should not be treated as a trustworthy conversational twin unless it can make uncertainty visible, show provenance, stay within validated scope, refuse unsupported claims, trigger escalation, and remain clinically supervised. Governance is part of the system boundary, not an administrative add-on.
 
+### The line, in four steps
+
+This anchor is not a single paper but the first step of a sequence, and each step exists so the next one can be built against something stated rather than assumed.
+
+1. **The position** — this Viewpoint. What accountable patient-facing interpretation means, and how to locate responsibility for it.
+2. **The interaction study** — [*Day Eleven*]({{ '/twin/' | relative_url }}), public since September 2026. A three-minute film making the requirement concrete: one question a medical AI should have refused, shown twice, with and without governance, including what the audit log still contains three months later. It is a study of the interaction, not a demonstration of a built system.
+3. **The Phase 1 prototype** — in build, on synthetic scenarios. Its charter, risk ownership and [external clinical review]({{ '/portfolio/' | relative_url }}) are public; its architecture is gated on publication.
+4. **The lines below, then clinical evaluation** — the ethics line and the technical line, then a prospectively evaluated, clinically supervised twin in a bounded cardiometabolic use case.
+
 ## Line 1: the ethics of explanatory authority
 <p class="badge badge-published">Normative paper · status: in preparation</p>
 

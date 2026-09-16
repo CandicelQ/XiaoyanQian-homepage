@@ -14,7 +14,7 @@ The capability is high-stakes AI governance; medical AI is where I prove it, bec
 
 ## Following technology into governance
 
-I did not start in governance. I started in AI research, working on three-dimensional perception and automatic annotation, where a model is only as good as the data behind it and the evaluation around it. That work taught me how AI systems are actually built, where they quietly fail, and why "reliable" means something more than a high score on a benchmark.
+I did not start in governance. I started in AI research, working on three-dimensional perception and automatic annotation, where a model is only as good as the data behind it and the evaluation around it. That work taught me how AI systems are actually built, where they quietly fail, and why "reliable" means something more than a high score on a benchmark. Alongside it, I have spent eight years reviewing submissions for NeurIPS, ICML, CVPR and AAAI, which trains a different reflex: not building a system, but judging whether the evidence offered supports what is claimed for it.
 
 When I moved into leading a patient-facing medical digital twin, I expected the hard part to be the modelling. It was not. The decisive questions were about deployment: what the system is allowed to claim, who is responsible when it is wrong, what evidence a patient should have before they see an output, and who has the authority to stop it. These are governance questions, and in medical AI they are not optional.
 
