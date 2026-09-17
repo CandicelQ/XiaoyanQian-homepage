@@ -9,21 +9,24 @@ permalink: /twin/
 <p class="badge badge-scenario">Interaction study · synthetic scenario · not a deployed system</p>
 
 <p class="section-intro">
-A three-minute film about a single question a medical AI should have refused to answer.
+A film about a single question a medical AI should have refused to answer.
 It belongs to the research line below as its first working artefact: the Viewpoint states the position,
 this shows what the position looks like when a patient is in front of it, and the Phase 1 prototype is
 being built to satisfy it.
 </p>
 
-<!-- Recording not yet posted. Swap this block back to the <video> element
-     (assets/video/day-eleven.mp4 + day-eleven-poster.jpg) once the film is
-     recorded. Until then a broken player would say more than the page does. -->
-<div style="max-width:900px;padding:28px 32px;border:1px solid #26405f;border-radius:8px;background:#0b1220;color:#a9bdd8">
-  <p style="margin:0 0 6px;font-weight:600;color:#dbe8ff">Day Eleven — an interaction study</p>
-  <p style="margin:0">The film is shown at the joint-lab opening on 17 September 2026.
-  The recording is posted here after that date. The written position below
-  is what the film is built to satisfy, and it is already complete.</p>
-</div>
+<video controls preload="metadata" playsinline
+       poster="{{ '/assets/video/day-eleven-poster.jpg' | relative_url }}"
+       style="width:100%;max-width:900px;border-radius:8px;background:#0b1220">
+  <source src="{{ '/assets/video/day-eleven.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support embedded video.
+  <a href="{{ '/assets/video/day-eleven.mp4' | relative_url }}">Download the film (MP4)</a>.
+</video>
+
+<p class="muted" style="max-width:900px">
+Shown at the HKU–Avnet joint-lab opening on 17 September 2026. 9 min 40 s, with sound and subtitles
+(English and Chinese).
+</p>
 
 <p class="muted">
 Illustrative synthetic scenario. It depicts a documented <em>category</em> of harm from ungoverned AI health
