@@ -28,6 +28,14 @@ Shown at the HKU–Avnet joint-lab opening on 17 September 2026. 9 min 40 s, wit
 (English and Chinese).
 </p>
 
+<p class="muted" style="max-width:900px">
+<strong>Press stills</strong> (3840 × 1632, free to reproduce with the credit line below) —
+<a href="{{ '/assets/press/day-eleven-still-01-governed-vs-ungoverned.jpg' | relative_url }}">1 · governed and ungoverned, side by side</a> ·
+<a href="{{ '/assets/press/day-eleven-still-02-permission-strip.jpg' | relative_url }}">2 · the permission strip</a>.
+Both frames carry the synthetic-scenario and prototype notices on the image itself; please keep them visible.
+Credit: <em>Day Eleven</em>, Medical Digital Twin initiative, HKU–Avnet Joint AI Laboratory.
+</p>
+
 <p class="muted">
 Illustrative synthetic scenario. It depicts a documented <em>category</em> of harm from ungoverned AI health
 advice, not a specific product and not a real case. It shows what a governed system does, not how it decides:
