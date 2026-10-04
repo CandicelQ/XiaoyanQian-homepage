@@ -34,6 +34,14 @@ title: Home
   <p class="role-wording-desc">Taking one patient-facing system from research prototype toward responsible deployment, and building the governance that must be in place first.</p>
 </div>
 
+<div class="feature">
+  <a href="{{ '/twin/' | relative_url }}"><img src="{{ '/assets/img/day-eleven-hero.jpg' | relative_url }}" width="1920" height="716" alt="Still from Day Eleven: the same patient question answered by a general-purpose assistant and by a governed medical digital twin."></a>
+  <p class="feature-kicker">The Medical Digital Twin, in one film</p>
+  <p class="feature-title"><a href="{{ '/twin/' | relative_url }}">Day Eleven: a medical digital twin that knows where its answers end</a></p>
+  <p class="feature-desc">One patient, and one question a medical AI should refuse to answer, shown with and without governance. What the twin is, why it matters, and why now.</p>
+  <p class="feature-link"><a href="{{ '/twin/' | relative_url }}">Watch the film and read the argument →</a></p>
+</div>
+
 ## Who I am
 
 I came to governance from the builder's side: at the HKU-Avnet Joint AI Laboratory I build a patient-facing medical digital twin, and govern what it may claim and who answers for it. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
@@ -68,7 +76,7 @@ I came to governance from the builder's side: at the HKU-Avnet Joint AI Laborato
   <li class="card">
     <p class="badge badge-published">Research</p>
     <h3>Accountable Patient-facing Interpretation</h3>
-    <p>When a medical AI speaks to a patient about their own body, what makes that voice accountable? Grounded in first-author work at AAAI and IJCV, my research answers this with a five-layer accountability map, a Grade 0 to 4 maturity framework, and a named consent harm — unmarked domain-crossing.</p>
+    <p>When a medical AI speaks to a patient about their own body, what makes that voice accountable? Grounded in first-author work at AAAI and IJCV, my research answers this with a five-layer accountability map, a Grade 0 to 4 maturity framework, and a named consent harm: unmarked domain-crossing.</p>
     <a href="{{ '/writing/' | relative_url }}">Read more →</a>
   </li>
 </ul>
