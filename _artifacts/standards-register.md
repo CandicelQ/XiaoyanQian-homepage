@@ -2,7 +2,7 @@
 title: "Standards and Frameworks Register (project-derived, sanitized)"
 evidence_type: "Project-derived · pre-deployment · sanitized"
 evidence_class: project
-summary: "A register that treats every external framework we adopt — NIST, WHO, EU AI Act, ISO — as a tracked object with a version, mapped internal controls, an owner, and a change-impact plan. It governs the framework itself, so that 'we adopted NIST' is never mistaken for a finished, permanent fact."
+summary: "A register that treats every external framework we adopt (NIST, WHO, EU AI Act, ISO) as a tracked object with a version, mapped internal controls, an owner, and a change-impact plan. It governs the framework itself, so that 'we adopted NIST' is never mistaken for a finished, permanent fact."
 author: "Xiaoyan Qian"
 version: "v0.1"
 publication_date: "2026-08-05"
@@ -13,9 +13,9 @@ suggested_citation: "Qian, X. (2026). Standards and Frameworks Register (project
 
 ## What this artifact is for
 
-Adopting a governance framework is easy to claim and easy to leave stale. "We follow NIST," "we align with WHO guidance," "we map to the EU AI Act" — each of these is only true against a **specific version**. When the framework is revised, the controls, evidence, and risk classifications mapped to it may quietly stop being sufficient, while the adoption claim keeps being repeated.
+Adopting a governance framework is easy to claim and easy to leave stale. "We follow NIST," "we align with WHO guidance," "we map to the EU AI Act": each of these is only true against a **specific version**. When the framework is revised, the controls, evidence, and risk classifications mapped to it may quietly stop being sufficient, while the adoption claim keeps being repeated.
 
-This register closes that gap. It makes each external standard a tracked object rather than a settled decision, with six fixed columns: **Framework, Version, Internal controls mapped, Owner, Last review, Change impact if revised.** It is the single upstream anchor for the framework-facing claims spread across the rest of my governance pack — the change-control plan that maps to FDA PCCP thinking, the disclosure work that maps to EU AI Act transparency, the liability map that maps to WHO's findings.
+This register closes that gap. It makes each external standard a tracked object rather than a settled decision, with six fixed columns: **Framework, Version, Internal controls mapped, Owner, Last review, Change impact if revised.** It is the single upstream anchor for the framework-facing claims spread across the rest of my governance pack: the change-control plan that maps to FDA PCCP thinking, the disclosure work that maps to EU AI Act transparency, the liability map that maps to WHO's findings.
 
 ## Why this is the difference between *reading* a framework and *governing under* one
 
@@ -28,7 +28,7 @@ Concretely: NIST has said its AI Risk Management Framework 1.0 is under revision
 
 ## Why I built this (builder's perspective)
 
-Building the twin, I kept citing external frameworks to justify design choices — a change-control envelope here, a transparency obligation there. Each citation was true on the day I wrote it. What I did not have, until this register, was any structure that would tell me when one of those citations had gone out of date because the framework moved underneath it. A framework reference with no owner and no version is the governance equivalent of a hard-coded credential: it works today, and nobody is responsible for the day it stops.
+Building the twin, I kept citing external frameworks to justify design choices: a change-control envelope here, a transparency obligation there. Each citation was true on the day I wrote it. What I did not have, until this register, was any structure that would tell me when one of those citations had gone out of date because the framework moved underneath it. A framework reference with no owner and no version is the governance equivalent of a hard-coded credential: it works today, and nobody is responsible for the day it stops.
 
 ## Fixed metadata
 
@@ -45,10 +45,10 @@ Building the twin, I kept citing external frameworks to justify design choices �
 | Framework | Version (as adopted) | Internal controls mapped | Owner | Last review | Change impact if revised |
 | --- | --- | --- | --- | --- | --- |
 | FDA Predetermined Change Control Plan (PCCP) thinking | Version as cited in change-control case | Change-class table and pre-authorized envelope | Governance Lead | 2026-08-05 | Re-check change-class thresholds and re-validation triggers |
-| EU AI Act — transparency (Art. 50) | In force 2026-08-02 | Disclosure inventory; public disclosure summary | Governance Lead | 2026-08-05 | Re-check touchpoint disclosure list and machine-readable-marking obligations |
+| EU AI Act (transparency, Art. 50) | In force 2026-08-02 | Disclosure inventory; public disclosure summary | Governance Lead | 2026-08-05 | Re-check touchpoint disclosure list and machine-readable-marking obligations |
 | WHO guidance on AI for health | 2024 assessment | Liability allocation map | Governance Lead | 2026-08-05 | Re-check liability allocation assumptions |
 | NIST AI Risk Management Framework | 1.0 (revision pending; critical-infrastructure profile concept issued) | Risk register; KPI / monitoring register | Governance Lead | 2026-08-05 | On revision, re-map risk categories and monitoring controls; check whether a sector profile applies |
-| ISO/IEC 42001 (AI management system) | Not yet adopted — candidate | To be mapped on adoption | Governance Lead | 2026-08-05 | If adopted, map management-system clauses to existing registers before claiming alignment |
+| ISO/IEC 42001 (AI management system) | Not yet adopted (candidate) | To be mapped on adoption | Governance Lead | 2026-08-05 | If adopted, map management-system clauses to existing registers before claiming alignment |
 
 ## The rule that makes it real
 

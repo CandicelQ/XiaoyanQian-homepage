@@ -22,7 +22,7 @@ This risk register is the instrument from the governance pack (v0.2) I developed
 | Field | Value |
 | --- | --- |
 | Data provenance | Wearable streams (heart rate, HRV, sleep, activity), EHR labs (HbA1c, lipids, blood pressure), validated self-reports, model output logs |
-| Model version | Cardiometabolic Risk Model — pre-deployment build (version pinned at validation before any pilot) |
+| Model version | Cardiometabolic Risk Model, pre-deployment build (version pinned at validation before any pilot) |
 | Approval owner | AI Governance Lead + Patient Safety Committee |
 | Effective date | Not yet in force (pre-deployment) |
 | Version | v0.2 |

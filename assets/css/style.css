@@ -129,7 +129,45 @@ th { background: var(--accent-light); font-weight: 600; }
 .muted { color: var(--muted); }
 .section-intro { color: var(--muted); }
 
+/* Day Eleven page and its home-page feature */
+.kicker { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin: 1.8rem 0 0; }
+.kicker + h1 { margin-top: 0.35rem; }
+.deck { font-family: Georgia, serif; font-size: 1.22rem; line-height: 1.45; border-left: 3px solid var(--accent); padding-left: 0.85rem; margin: 0.3rem 0 0.9rem; }
+.hero-figure { margin: 1.1rem 0 0.4rem; }
+.hero-figure img, .feature img { display: block; width: 100%; height: auto; background: #0b1220; }
+.hero-figure img { border-radius: 8px; }
+.hero-figure figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 0.55rem; }
+.cta-row { font-weight: 600; margin: 0.9rem 0 0; }
+.feature { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #fbfcfd; margin: 1.6rem 0 0.4rem; }
+.feature p { margin-left: 1.2rem; margin-right: 1.2rem; }
+.feature-kicker { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-top: 0.9rem; margin-bottom: 0.1rem; }
+.feature-title { font-family: Georgia, serif; font-size: 1.2rem; font-weight: 700; line-height: 1.35; margin-top: 0; margin-bottom: 0.3rem; }
+.feature-title a { color: var(--ink); }
+.feature-desc { font-size: 0.95rem; color: var(--muted); margin-top: 0; margin-bottom: 0.4rem; }
+.feature-link { font-weight: 600; margin-top: 0; margin-bottom: 1rem; }
+.byline { font-size: 0.9rem; color: var(--muted); margin: 0.2rem 0 0; }
+
+/* Film chapters: click a frame to play from that point */
+.chapters { list-style: none; padding: 0; margin: 1rem 0 1.4rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.9rem; }
+.chapter { display: block; width: 100%; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfcfd; text-align: left; font: inherit; color: inherit; cursor: pointer; overflow: hidden; }
+.chapter:hover, .chapter:focus-visible { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-light); outline: none; }
+.chapter-thumb { position: relative; display: block; background: #0b1220; }
+.chapter-thumb img { display: block; width: 100%; height: auto; }
+.chapter-time { position: absolute; right: 0.45rem; top: 0.45rem; font-size: 0.75rem; font-weight: 700; font-variant-numeric: tabular-nums; color: #fff; background: rgba(11, 18, 32, 0.82); border-radius: 4px; padding: 0.05rem 0.4rem; }
+.chapter-title { display: block; font-weight: 700; font-size: 0.95rem; margin: 0.5rem 0.7rem 0.1rem; }
+.chapter-desc { display: block; font-size: 0.85rem; line-height: 1.45; color: var(--muted); margin: 0 0.7rem 0.65rem; }
+
+/* Author card on /twin/ */
+.author-card { display: flex; gap: 1rem; align-items: flex-start; border: 1px solid var(--line); border-radius: 8px; background: #fbfcfd; padding: 1rem 1.1rem; }
+.author-card img { flex: 0 0 auto; width: 88px; height: auto; border-radius: 8px; }
+.author-card p { margin: 0 0 0.5rem; font-size: 0.95rem; }
+.author-card .author-links { margin: 0; font-weight: 600; font-size: 0.9rem; }
+
 @media (max-width: 600px) {
+  .chapters { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; }
+  .chapter-desc { display: none; }
+  .author-card { flex-direction: column; }
+  .deck { font-size: 1.08rem; }
   .site-nav { flex-wrap: wrap; }
   .site-nav a { flex: 0 0 auto; text-align: left; margin-right: 1.3rem; padding-bottom: 0.5rem; font-size: 0.95rem; }
   .site-nav a.active::after { left: 0; transform: none; }

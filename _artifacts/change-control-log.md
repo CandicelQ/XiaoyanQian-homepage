@@ -2,7 +2,7 @@
 title: "Model Change Control Log (sanitized)"
 evidence_type: "Project-derived · sanitized"
 evidence_class: project
-summary: "Turns 'we updated the model' into a governed decision. Every change carries a risk level, the metrics it touches, whether revalidation is required, a named approval owner, and the evidence to keep — so no silent update reaches a patient without someone accountable signing for it."
+summary: "Turns 'we updated the model' into a governed decision. Every change carries a risk level, the metrics it touches, whether revalidation is required, a named approval owner, and the evidence to keep, so no silent update reaches a patient without someone accountable signing for it."
 author: "Xiaoyan Qian"
 version: "v0.1"
 publication_date: "2026-08-10"
@@ -13,7 +13,7 @@ suggested_citation: "Qian, X. (2026). Model Change Control Log (sanitized), v0.1
 
 ## What this artifact is for
 
-A change control log exists to stop the most common failure mode of a deployed medical AI: a silent update that shifts behaviour with no record of who approved it, what it affected, or how to roll back. It makes every change a governed decision. Each row answers five questions at once: what changed, how risky it is, which metrics it touches, whether revalidation is required, and who has the authority to approve it — plus the evidence that must survive the change.
+A change control log exists to stop the most common failure mode of a deployed medical AI: a silent update that shifts behaviour with no record of who approved it, what it affected, or how to roll back. It makes every change a governed decision. Each row answers five questions at once: what changed, how risky it is, which metrics it touches, whether revalidation is required, and who has the authority to approve it, plus the evidence that must survive the change.
 
 This is the change-control structure I apply in pre-deployment governance design for my patient-facing cardiometabolic twin. It maps to FDA Predetermined Change Control Plan (PCCP) thinking: classify the change, pre-define the revalidation and approval envelope, and keep the evidence trail. It is the fillable log that pairs with the [Change control and PCCP case]({{ '/cases/model-change-control/' | relative_url }}), which sets out the change-class gates, the no-deployable-version fallback, and the retirement state this log records against. Because the system I build has not yet deployed, the worked rows are an illustrative change-control plan used to exercise the structure, not entries from a live system. It carries no confidential project or patient detail.
 
@@ -40,7 +40,7 @@ This is the change-control structure I apply in pre-deployment governance design
 | C-005 | Change alert wording in clinician UI | Medium | Override rate, clinician reliance | Maybe | Clinical Safety Lead (Product Owner cannot approve alone) | UI screenshots, user-testing notes |
 | C-006 | Integrate AI alert into emergency workflow | High | Time-to-review, false negatives, workflow risk | Yes | Clinical Director / Change Control Board | Workflow risk assessment |
 
-## Who approves what — the four-question test
+## Who approves what: the four-question test
 
 When it is not obvious who signs for a change, four questions decide the approval owner:
 

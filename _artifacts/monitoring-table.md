@@ -22,7 +22,7 @@ The structure and monitoring logic here are the ones I apply in pre-deployment g
 | Field | Value |
 | --- | --- |
 | Data provenance | Wearable and EHR streams, model output logs, human review records |
-| Model version | Cardiometabolic Risk Twin — pre-deployment build (version pinned at validation before any pilot) |
+| Model version | Cardiometabolic Risk Twin, pre-deployment build (version pinned at validation before any pilot) |
 | Approval owner | AI Governance Lead |
 | Effective date | Not yet in force (pre-deployment) |
 | Version | v0.2 |

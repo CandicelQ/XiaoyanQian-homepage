@@ -59,7 +59,7 @@ This is my main project. At the HKU-Avnet Joint AI Laboratory, I lead both the e
 
 **Current status.** The twin's model and framework are under active development. The system today is an internal research demonstration, not a deployment-ready product, and I describe it as exactly that. Two things are gated separately, and I have separated them deliberately rather than quietly. The **architecture overview and a demonstration of the built system** remain gated on publication of the underlying research and a confidentiality review: I would rather show those when the evidence behind them is stable than stage a preview that overstates the system. The **interaction pattern the system is being built to satisfy** is a different claim, and it is public now as an illustrative synthetic film, [*Day Eleven*]({{ '/twin/' | relative_url }}), which shows what a governed refusal looks like without disclosing any rule, threshold, prompt, evaluation method, or data source. Releasing the second while holding the first is a change from what this page said before September 2026, when both sat behind the same gate; the reason for the change is that a position stated early with a date on it is worth more than a demonstration released late, and the confidentiality risk lives in the architecture rather than in the argument.
 
-**External clinical review.** The governance framing is no longer only my own voice. The project charter has been externally reviewed, and in August 2026 the Phase 1 boundary and escalation rules were reviewed in writing by a primary-care clinician with no role in the project: the boundary was sharpened from diagnostic-versus-non-diagnostic to describing-a-pattern-versus-judging-urgency, the escalation pathway was redesigned around the patient rather than a hard-coded recipient, and six quiet-harm categories from that review now sit in the evaluation harness as test categories. The review is processed as design input with a decision record, not filed as endorsement.
+<a id="clinical-review"></a>**External clinical review.** The governance framing is no longer only my own voice. The project charter has been externally reviewed, and in August 2026 the Phase 1 boundary and escalation rules were reviewed in writing by a primary-care clinician with no role in the project: the boundary was sharpened from diagnostic-versus-non-diagnostic to describing-a-pattern-versus-judging-urgency, the escalation pathway was redesigned around the patient rather than a hard-coded recipient, and six quiet-harm categories from that review now sit in the evaluation harness as test categories. The review is processed as design input with a decision record, not filed as endorsement.
 
 <!-- DEMO PLACEHOLDER: the illustrative interaction film is live at /twin/ (Sept 2026). Still outstanding: the embedded five-layer architecture figure + a demo of the built system. Gate for those two only: (1) Lancet DH Viewpoint accepted/published, (2) demo polished, (3) reviewed for confidentiality. -->
 
@@ -92,7 +92,7 @@ The fastest way to see how this fits together: eight risk domains, each with the
 | Dependencies | A hard-to-replace input (model, cloud, sensor, specialist, consumable) fails | [Dependency register]({{ '/artifacts/dependency-register/' | relative_url }}) | Owner, fallback, and review-trigger per dependency |
 
 <p class="section-intro">
-Two principles run through every row: each control names an <strong>owner, a trigger, and an audit trail</strong> (not "we are careful"); and the person accountable for <strong>delivering</strong> a component is never the person who signs it <strong>safe</strong>. If you are building or overseeing patient-facing medical AI, the single ask this map supports is simple — pick one row, and let us walk through how it would apply to your system.
+Two principles run through every row: each control names an <strong>owner, a trigger, and an audit trail</strong> (not "we are careful"); and the person accountable for <strong>delivering</strong> a component is never the person who signs it <strong>safe</strong>. If you are building or overseeing patient-facing medical AI, the single ask this map supports is simple: pick one row, and let us walk through how it would apply to your system.
 </p>
 
 <h2 id="casebook">Governance casebook</h2>
@@ -110,19 +110,19 @@ These cases are not literature reviews of the frameworks. Each one is the reason
 </p>
 
 <p class="section-intro">
-The casebook spans the full AI-SaMD deployment lifecycle — <strong>nine readiness areas, from intended-use boundaries to post-market monitoring, each producing a concrete, adaptable governance tool</strong> rather than a generic template:
+The casebook spans the full AI-SaMD deployment lifecycle, with <strong>nine readiness areas, from intended-use boundaries to post-market monitoring, each producing a concrete, adaptable governance tool</strong> rather than a generic template:
 </p>
 
 <ul class="readiness-list">
-  <li><strong>Intended use &amp; scope</strong> — boundary enforcement, off-label use creep</li>
-  <li><strong>Clinical validation &amp; change control</strong> — predetermined change control (PCCP), version governance</li>
-  <li><strong>Patient safety &amp; incident support</strong> — false-negative incident response, worked risk register and SOP</li>
-  <li><strong>Consent &amp; patient-facing safety</strong> — disclosure, scope, and uncertainty surfacing</li>
-  <li><strong>Agent &amp; human oversight</strong> — agent decision rights, human override and audit log</li>
-  <li><strong>Data governance</strong> — multi-hospital data readiness</li>
-  <li><strong>Fairness &amp; equity</strong> — subgroup monitoring</li>
-  <li><strong>Vendor &amp; supply governance</strong> — vendor due diligence, model and cloud dependency</li>
-  <li><strong>Post-market monitoring</strong> — continuous drift monitoring and escalation</li>
+  <li><strong>Intended use &amp; scope</strong>: boundary enforcement, off-label use creep</li>
+  <li><strong>Clinical validation &amp; change control</strong>: predetermined change control (PCCP), version governance</li>
+  <li><strong>Patient safety &amp; incident support</strong>: false-negative incident response, worked risk register and SOP</li>
+  <li><strong>Consent &amp; patient-facing safety</strong>: disclosure, scope, and uncertainty surfacing</li>
+  <li><strong>Agent &amp; human oversight</strong>: agent decision rights, human override and audit log</li>
+  <li><strong>Data governance</strong>: multi-hospital data readiness</li>
+  <li><strong>Fairness &amp; equity</strong>: subgroup monitoring</li>
+  <li><strong>Vendor &amp; supply governance</strong>: vendor due diligence, model and cloud dependency</li>
+  <li><strong>Post-market monitoring</strong>: continuous drift monitoring and escalation</li>
 </ul>
 
 <p class="section-intro">If you are running a clinical AI or AI-SaMD deployment, several of these modules can be adapted directly to your system. <a href="{{ '/about/' | relative_url }}">Get in touch</a> if a governance perspective grounded in real system-building would be useful.</p>
@@ -160,7 +160,7 @@ Nine of these are published in full. Seven span the deployment lifecycle; one is
 | [Agent risk-control matrix]({{ '/artifacts/agent-risk-control-matrix/' | relative_url }}) | Agent governance / assurance | <span class="badge badge-project">Project-derived</span> | Each agent risk needs a control, a test that proves it works, a monitored signal, and an audit-evidence record: from promise to evidence |
 | [Post-deployment monitoring table]({{ '/artifacts/monitoring-table/' | relative_url }}) | In-life monitoring | <span class="badge badge-scenario">Scenario-based</span> | Every metric needs a review owner, a trigger threshold, and a required action |
 | [Public disclosure summary]({{ '/artifacts/public-disclosure-summary/' | relative_url }}) | Public accountability | <span class="badge badge-project">Project-derived</span> | Voluntarily held to a public-sector transparency standard; if a non-user cannot understand what the system does, does not do, who is responsible, and how to challenge it, it is not publicly accountable |
-| [Standards & frameworks register]({{ '/artifacts/standards-register/' | relative_url }}) | Standards governance | <span class="badge badge-project">Project-derived</span> | Adopting a framework is not a one-time act; each standard is a tracked object with a version, mapped controls, an owner, and a change-impact plan — governing under a framework, not just citing one |
+| [Standards & frameworks register]({{ '/artifacts/standards-register/' | relative_url }}) | Standards governance | <span class="badge badge-project">Project-derived</span> | Adopting a framework is not a one-time act; each standard is a tracked object with a version, mapped controls, an owner, and a change-impact plan. That is governing under a framework, not just citing one |
 | [Model change control log]({{ '/artifacts/change-control-log/' | relative_url }}) | Change governance | <span class="badge badge-project">Project-derived</span> | No silent updates: every change carries a risk class, a revalidation trigger, a named approval owner, and a retained evidence trail, with a safe prior version always available to fall back to |
 
 **Further instruments** (available, sanitized, on request):

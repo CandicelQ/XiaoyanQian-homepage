@@ -22,7 +22,7 @@ Full publication list: <a href="https://scholar.google.com/citations?user=XNdT5E
 
 Medical digital twins are showing clinical value, but mostly in tightly bounded, expert-facing settings. This Viewpoint argues that the next frontier is not fuller anatomical replication but accountable patient-facing interpretation: what a system can responsibly explain, refuse, escalate, and audit when patients see the output. It contributes two tools:
 
-- **A five-layer accountability map** separating sensing, representation, prediction, governed orchestration and explanation, and patient-clinician interaction, so that responsibility can be located rather than diffused.
+- **A five-layer accountability map** separating sensing, representation, prediction, governed orchestration and communication, and patient-clinician interaction, so that responsibility can be located rather than diffused.
 - **A maturity framework (Grade 0 to 4)** distinguishing digital models, digital shadows, predictive twins, actionable twins, and conversational twins, so that deployment-readiness claims become auditable and falsifiable.
 
 The governance position: a system should not be treated as a trustworthy conversational twin unless it can make uncertainty visible, show provenance, stay within validated scope, refuse unsupported claims, trigger escalation, and remain clinically supervised. Governance is part of the system boundary, not an administrative add-on.
@@ -31,10 +31,10 @@ The governance position: a system should not be treated as a trustworthy convers
 
 This anchor is not a single paper but the first step of a sequence, and each step exists so the next one can be built against something stated rather than assumed.
 
-1. **The position** — this Viewpoint. What accountable patient-facing interpretation means, and how to locate responsibility for it.
-2. **The interaction study** — [*Day Eleven*]({{ '/twin/' | relative_url }}), public since September 2026. A three-minute film making the requirement concrete: one question a medical AI should have refused, shown twice, with and without governance, including what the audit log still contains three months later. It is a study of the interaction, not a demonstration of a built system.
-3. **The Phase 1 prototype** — in build, on synthetic scenarios. Its charter, risk ownership and [external clinical review]({{ '/portfolio/' | relative_url }}) are public; its architecture is gated on publication.
-4. **The lines below, then clinical evaluation** — the ethics line and the technical line, then a prospectively evaluated, clinically supervised twin in a bounded cardiometabolic use case.
+1. **The position:** this Viewpoint. What accountable patient-facing interpretation means, and how to locate responsibility for it.
+2. **The interaction study:** [*Day Eleven*]({{ '/twin/' | relative_url }}), public since September 2026. A film of just under ten minutes that makes the requirement concrete: one question a medical AI should have refused, shown twice, with and without governance, and what the audit log still holds three months later. It is a study of the interaction, not a demonstration of a built system.
+3. **The Phase 1 prototype:** in build, on synthetic and public data. Its charter, risk ownership, and [external clinical review]({{ '/portfolio/' | relative_url }}#clinical-review) are public; its architecture is gated on publication.
+4. **The lines below, then clinical evaluation:** the ethics line and the technical line, then a prospectively evaluated, clinically supervised twin in a bounded cardiometabolic use case.
 
 ## Line 1: the ethics of explanatory authority
 <p class="badge badge-published">Normative paper · status: in preparation</p>
