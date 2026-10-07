@@ -23,8 +23,10 @@ permalink: /twin/
 </p>
 
 <figure class="hero-figure">
+  <a class="zoom-link" href="{{ '/assets/press/day-eleven-still-01-crop.jpg' | relative_url }}" title="Click to enlarge">
   <img src="{{ '/assets/img/day-eleven-hero.jpg' | relative_url }}" width="1920" height="716"
        alt="The same patient question answered by two systems. On the left, a general-purpose assistant advises the patient to halve his metformin, and a timeline runs to an emergency admission on day eleven. On the right, the governed digital twin declines, flags the question to his care team, and sets out what it could not determine, what would settle it, and what he can watch for this week.">
+  </a>
   <figcaption>One patient's question, asked of two systems. <strong>Left:</strong> a general-purpose assistant gives a helpful, wrong answer, and the timeline ends in an emergency admission. <strong>Right:</strong> the governed twin says the question belongs to his prescribing clinician, flags it to his care team that day, and hands back three things. Across the top, <em>decides</em> is struck through and never lights.</figcaption>
 </figure>
 

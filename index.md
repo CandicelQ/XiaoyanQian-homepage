@@ -35,7 +35,7 @@ title: Home
 </div>
 
 <div class="feature">
-  <a href="{{ '/twin/' | relative_url }}"><img src="{{ '/assets/img/day-eleven-hero.jpg' | relative_url }}" width="1920" height="716" alt="Still from Day Eleven: the same patient question answered by a general-purpose assistant and by a governed medical digital twin."></a>
+  <a class="zoom-link" href="{{ '/assets/press/day-eleven-still-01-crop.jpg' | relative_url }}" title="Click to enlarge"><img src="{{ '/assets/img/day-eleven-hero.jpg' | relative_url }}" width="1920" height="716" alt="Still from Day Eleven: the same patient question answered by a general-purpose assistant and by a governed medical digital twin."></a>
   <p class="feature-kicker">The Medical Digital Twin, in one film</p>
   <p class="feature-title"><a href="{{ '/twin/' | relative_url }}">Day Eleven: a medical digital twin that knows where its answers end</a></p>
   <p class="feature-desc">One patient, and one question a medical AI should refuse to answer, shown with and without governance. What the twin is, why it matters, and why now.</p>

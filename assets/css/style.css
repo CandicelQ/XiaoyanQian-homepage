@@ -147,6 +147,16 @@ th { background: var(--accent-light); font-weight: 600; }
 .feature-link { font-weight: 600; margin-top: 0; margin-bottom: 1rem; }
 .byline { font-size: 0.9rem; color: var(--muted); margin: 0.2rem 0 0; }
 
+/* Click-to-enlarge (assets/js/zoom.js): fit to screen, click the image for actual size */
+a.zoom-link { display: block; cursor: zoom-in; }
+dialog.zoom { width: 100vw; height: 100vh; max-width: 100vw; max-height: 100vh; margin: 0; padding: 0; border: 0; background: transparent; overflow: auto; }
+dialog.zoom[open] { display: flex; }
+dialog.zoom::backdrop { background: rgba(8, 12, 20, 0.95); }
+dialog.zoom img { display: block; max-width: 96vw; max-height: 92vh; margin: auto; cursor: zoom-in; }
+dialog.zoom.actual img { max-width: none; max-height: none; cursor: zoom-out; }
+.zoom-close { position: fixed; top: 0.4rem; right: 0.8rem; z-index: 1; border: 0; background: none; color: #fff; font-size: 2.4rem; line-height: 1; cursor: pointer; }
+body:has(dialog.zoom[open]) { overflow: hidden; }
+
 /* Film chapters: click a frame to play from that point */
 .chapters { list-style: none; padding: 0; margin: 1rem 0 1.4rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.9rem; }
 .chapter { display: block; width: 100%; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfcfd; text-align: left; font: inherit; color: inherit; cursor: pointer; overflow: hidden; }
