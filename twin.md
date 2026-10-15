@@ -113,7 +113,7 @@ The prototype's boundary and escalation rules have been reviewed in writing by a
 <tr>
   <td><strong>1 · The position</strong></td>
   <td><a href="{{ '/writing/' | relative_url }}">Anchor: accountable patient-facing interpretation</a><br>
-      <span class="muted">Viewpoint, not yet published. The five-layer accountability map and the Grade 0 to 4 maturity framework.</span></td>
+      <span class="muted">Viewpoint, submitted in October 2026 and not yet published. The five-layer accountability map and the Grade 0 to 4 maturity framework.</span></td>
 </tr>
 <tr>
   <td><strong>2 · This study</strong></td>
