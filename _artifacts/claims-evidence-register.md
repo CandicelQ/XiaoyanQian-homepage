@@ -4,11 +4,11 @@ evidence_type: "Project-derived · pre-deployment · sanitized"
 evidence_class: project
 summary: "A register of every claim a patient-facing system intends to make, set against the evidence that would actually support it. Each row records the claim as it would be worded, the evidence held, what that evidence supports rather than what it is cited for, the gap between the two, and the specific study or check that must exist before the claim may be made at all. Since v0.2 it also records the context claims the project makes in public about the problem it addresses."
 author: "Xiaoyan Qian"
-version: "v0.2"
+version: "v0.2.1"
 publication_date: "2026-08-30"
 stable_url: "https://xiaoyanqian.com/artifacts/claims-evidence-register/"
 license: "All rights reserved"
-suggested_citation: "Qian, X. (2026). Claims and Evidence Register (project-derived, sanitized), v0.2. https://xiaoyanqian.com/artifacts/claims-evidence-register/"
+suggested_citation: "Qian, X. (2026). Claims and Evidence Register (project-derived, sanitized), v0.2.1. https://xiaoyanqian.com/artifacts/claims-evidence-register/"
 ---
 
 ## What this artifact is for
@@ -66,7 +66,7 @@ The rows above govern what the system will say about itself. A project also make
 | "the Hospital Authority cared for more than 658,000 people with diabetes in 2024, and ... giving all of them continuous glucose monitors would overload healthcare staff with readings and add several billion dollars a year" | Day Eleven | Legislative Council reply (LCQ6), 16 July 2025 | The official patient count, and the Government's stated reasons in its own words | Supported (official statement) | 22 Oct 2026 |
 | "A person with diabetes might spend an hour or two a year in front of a clinician. For the more than eight thousand hours in between, they are alone with their questions" | Day Eleven, "Why it matters" | No single source. Basis: a planning parameter of eight minutes per Hospital Authority general out-patient consultation (LegCo LCQ7, 2017), routine follow-up a few times a year for stable patients (clinician input), and nurse and allied-health contacts | An order of magnitude. The second figure follows from the first by arithmetic (a year has 8,760 hours) | Estimate, not a measured figure. No published Hong Kong figure for total clinician contact time per patient-year was found | 22 Oct 2026 |
 | "more of those questions now go to general-purpose AI assistants" | Day Eleven, "Why it matters" | KFF polls of US adults: 17% used AI chatbots at least monthly for health information and advice (2024); 29% used AI tools or chatbots at least monthly for health information and advice (June 2026) | A rising share among adults in the United States; question wording differs slightly between the two polls | Supported for the United States only; no Hong Kong data found | 22 Oct 2026 |
-| "In most clinics no one would see it overnight" | Day Eleven, film description | No source | A plausible inference from clinic opening hours | Unsourced. To be sourced or reworded | 22 Oct 2026 |
+| "In most clinics no one would see it overnight" | Day Eleven, film description | Hospital Authority directory of Family Medicine Clinics (consulted 22 October 2026); Legislative Council reply (LCQ4), 25 April 2018 | None of the 77 Hospital Authority family medicine clinics listed offers consultation after 10 pm, and 24 hold evening sessions that end at 10 pm. In 2018 the Government told the Legislative Council that the Hospital Authority had no plans to provide general out-patient services at late hours or overnight | Supported for public family medicine clinics. For private clinics there is only a legislator's statement, in the 2018 question, that the vast majority do not provide consultation in late hours; no measured figure was found | 22 Oct 2026 |
 
 These rows are verified by reading the source, not by recomputation. Before any of these sentences is reused in a funding application, a manuscript, or a press statement, its source is checked again on the day.
 
@@ -117,6 +117,8 @@ This section is permanent; each revision adds to it rather than replacing it, so
 
 **v0.2 (22 October 2026).** Added the context-claims table, so that what this project says in public about the problem carries the same discipline as what it intends to say about the system. Two sentences that had been on the Day Eleven page since September without a source are now recorded with their actual status: one is an estimate, and one is supported only for adults in the United States. A third, about overnight clinic cover, has no source and is recorded as such. The Hospital Authority's 2025 announcement on generative AI, already on the page, is now recorded with its source.
 
+**v0.2.1 (22 October 2026, later the same day).** The row on overnight clinic cover, published hours earlier as unsourced, now has sources: the Hospital Authority's directory of its 77 family medicine clinics, none of which consults after 10 pm, and a 2018 Legislative Council reply. The evidence covers public clinics; for private clinics the row records that only a legislator's statement exists. The v0.2 entry above is left as it was published.
+
 <p class="muted">Related note: <a href="{{ '/notes/2026-08-28-existence-is-not-content-auditing-my-own-governance-pack/' | relative_url }}">An index that lists a file is not evidence the file contains anything</a> applies the same instrument one layer down, to the documents a governance pack claims to hold.</p>
 
 <details markdown="1">
@@ -126,10 +128,10 @@ This section is permanent; each revision adds to it rather than replacing it, so
 | --- | --- |
 | Title | Claims and Evidence Register (project-derived, sanitized) |
 | Author | Xiaoyan Qian |
-| Public page version | v0.2 |
+| Public page version | v0.2.1 |
 | Publication date | 2026-08-30 |
 | Stable URL | https://xiaoyanqian.com/artifacts/claims-evidence-register/ |
 | Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Claims and Evidence Register (project-derived, sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/claims-evidence-register/ |
+| Suggested citation | Qian, X. (2026). *Claims and Evidence Register (project-derived, sanitized)* (v0.2.1). https://xiaoyanqian.com/artifacts/claims-evidence-register/ |
 
 </details>
