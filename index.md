@@ -2,6 +2,9 @@
 layout: default
 title: Home
 ---
+{% comment %}
+2026-10-22：Current focus 的"for people managing type 2 diabetes between clinic visits"与 Who I am 的 behavioural assurance 句取自 对外话术卡 v0.2 §0.3（身份切面）。改句子先改话术卡。
+{% endcomment %}
 
 <div class="hero">
   <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan (Candice) Qian">
@@ -31,7 +34,7 @@ title: Home
 
 <div class="role-wording">
   <p class="role-wording-title">Current focus: Medical Digital Twin Initiative, AI Prototyping and Governance Framing</p>
-  <p class="role-wording-desc">Taking one patient-facing system from research prototype toward responsible deployment, and building the governance that must be in place first.</p>
+  <p class="role-wording-desc">Taking one patient-facing system, for people managing type 2 diabetes between clinic visits, from research prototype toward responsible deployment, and building the governance that must be in place first.</p>
 </div>
 
 <div class="feature">
@@ -44,7 +47,7 @@ title: Home
 
 ## Who I am
 
-I came to governance from the builder's side: at the HKU-Avnet Joint AI Laboratory I build a patient-facing medical digital twin, and govern what it may claim and who answers for it. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
+I came to governance from the builder's side: at the HKU-Avnet Joint AI Laboratory I build a patient-facing medical digital twin, and govern what it may claim and who answers for it. The evidence I build for it is what I call behavioural assurance: evidence of whether the system stays within its stated bounds, refuses and escalates correctly, and can be replayed afterwards. <a href="{{ '/about/' | relative_url }}">More about my path →</a>
 
 ## Start here
 

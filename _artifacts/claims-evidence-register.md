@@ -2,13 +2,13 @@
 title: "Claims and Evidence Register (project-derived, sanitized)"
 evidence_type: "Project-derived · pre-deployment · sanitized"
 evidence_class: project
-summary: "A register of every claim a patient-facing system intends to make, set against the evidence that would actually support it. Each row records the claim as it would be worded, the evidence held, what that evidence supports rather than what it is cited for, the gap between the two, and the specific study or check that must exist before the claim may be made at all."
+summary: "A register of every claim a patient-facing system intends to make, set against the evidence that would actually support it. Each row records the claim as it would be worded, the evidence held, what that evidence supports rather than what it is cited for, the gap between the two, and the specific study or check that must exist before the claim may be made at all. Since v0.2 it also records the context claims the project makes in public about the problem it addresses."
 author: "Xiaoyan Qian"
-version: "v0.1"
+version: "v0.2"
 publication_date: "2026-08-30"
 stable_url: "https://xiaoyanqian.com/artifacts/claims-evidence-register/"
 license: "All rights reserved"
-suggested_citation: "Qian, X. (2026). Claims and Evidence Register (project-derived, sanitized), v0.1. https://xiaoyanqian.com/artifacts/claims-evidence-register/"
+suggested_citation: "Qian, X. (2026). Claims and Evidence Register (project-derived, sanitized), v0.2. https://xiaoyanqian.com/artifacts/claims-evidence-register/"
 ---
 
 ## What this artifact is for
@@ -34,10 +34,10 @@ So this register turns the same instrument on my own system's performance and cl
 | Field | Value |
 | --- | --- |
 | Project stage | Incubation / pre-deployment |
-| Scope | Performance, clinical, and patient-facing claims about one cardiometabolic digital twin |
+| Scope | Performance, clinical, and patient-facing claims about one cardiometabolic digital twin; since v0.2, also the context claims the project makes in public about the problem it addresses |
 | Source | The internal claims-and-evidence review of the medical digital twin governance pack |
 | Inputs in scope | Wearable signals (heart rate, heart-rate variability, sleep), EHR laboratory values (HbA1c, lipids, blood pressure), and patient self-reports |
-| Last updated | 30 August 2026 |
+| Last updated | 22 October 2026 |
 | Known limitation | Pre-deployment worked example. The claims are prospective wordings under review, not published statements; owners are role-level placeholders to be fixed to named individuals before any external pilot; no row below is certified as cleared |
 
 ## Claims and evidence register
@@ -53,6 +53,22 @@ So this register turns the same instrument on my own system's performance and cl
 | "Helps you act earlier" | Patient interface, public summary | None. Reasoning from the clinical plausibility of earlier detection | Nothing about outcomes. No interventional or comparative study exists | Unsupported: outcome claim without an outcome study | Governance Lead | A prospective comparative study with a pre-registered outcome. Until it exists this claim is not weakened, it is removed |
 | "Continuously updated with your latest data" | Patient interface | The ingestion pipeline runs on a defined schedule | That data arrives, not that validated behaviour holds as inputs shift | Scope mismatch: process cited as performance | Eng Lead | Drift monitoring with a defined revalidation trigger, per the [monitoring table]({{ '/artifacts/monitoring-table/' | relative_url }}), and a stated rule for what happens to the estimate when a trigger fires |
 | "Reviewed by clinicians" | Sponsor materials, website | One external clinician reviewed the Phase 1 scope in August 2026 | A scope review that narrowed the use case to a single condition. It was not a review of model performance | Overstated: review of scope reported as review of the system | Governance Lead | State what the review covered and what it did not, as the [pre-deployment charter]({{ '/artifacts/pre-deployment-charter/' | relative_url }}) does, or obtain independent clinical validation and cite that instead |
+
+## Context claims: what the project says about the problem
+
+The rows above govern what the system will say about itself. A project also makes claims about the problem it addresses, and those fail in the same ways in a different form: an expected effect reported as a result, a figure from one population quoted for another, an estimate written as a measurement. Since v0.2 this register holds those too. Every sentence on the Day Eleven page that uses a number or a trend to describe the problem, or the moment the project responds to, has a row here, with its source and the date it was last checked against that source.
+
+| Claim, as worded | Where it appears | Source | What the source supports | Status | Last checked |
+| --- | --- | --- | --- | --- | --- |
+| "in February 2025 the Hospital Authority announced that generative AI would draft medical reports in six public hospitals from the following month, with every report checked and authorized by a doctor" | [Day Eleven]({{ '/twin/' | relative_url }}#why-now) | *The Standard*, 20 February 2025 (press conference by the Hospital Authority's Chief Executive) | The announcement, the six pilot hospitals, the start in the following month, and sign-off of every report by a doctor | Supported (press report of an official announcement). The use is drafting medical reports, not clinical decision-making | 22 Oct 2026 |
+| "the Government announced that the Chronic Disease Co-Care Pilot Scheme, which had passed 200,000 participants, would be regularised" | Day Eleven | HKSAR Government press release, 13 March 2026 | Enrolment exceeded 200,000 by the end of January 2026; regularisation was announced on 13 March 2026 | Supported (official figure) | 22 Oct 2026 |
+| "launched a Primary Healthcare Co-care Network that aims to reach about 700,000 people in its first five years. It also said it would gradually invite suitable patients from Hospital Authority Family Medicine Clinics to join the network's services" | Day Eleven | Same press release | A five-year participation target and a stated policy intention | Supported as a target and an intention; must not be restated as achieved | 22 Oct 2026 |
+| "the Hospital Authority cared for more than 658,000 people with diabetes in 2024, and ... giving all of them continuous glucose monitors would overload healthcare staff with readings and add several billion dollars a year" | Day Eleven | Legislative Council reply (LCQ6), 16 July 2025 | The official patient count, and the Government's stated reasons in its own words | Supported (official statement) | 22 Oct 2026 |
+| "A person with diabetes might spend an hour or two a year in front of a clinician. For the more than eight thousand hours in between, they are alone with their questions" | Day Eleven, "Why it matters" | No single source. Basis: a planning parameter of eight minutes per Hospital Authority general out-patient consultation (LegCo LCQ7, 2017), routine follow-up a few times a year for stable patients (clinician input), and nurse and allied-health contacts | An order of magnitude. The second figure follows from the first by arithmetic (a year has 8,760 hours) | Estimate, not a measured figure. No published Hong Kong figure for total clinician contact time per patient-year was found | 22 Oct 2026 |
+| "more of those questions now go to general-purpose AI assistants" | Day Eleven, "Why it matters" | KFF polls of US adults: 17% used AI chatbots at least monthly for health information and advice (2024); 29% used AI tools or chatbots at least monthly for health information and advice (June 2026) | A rising share among adults in the United States; question wording differs slightly between the two polls | Supported for the United States only; no Hong Kong data found | 22 Oct 2026 |
+| "In most clinics no one would see it overnight" | Day Eleven, film description | No source | A plausible inference from clinic opening hours | Unsourced. To be sourced or reworded | 22 Oct 2026 |
+
+These rows are verified by reading the source, not by recomputation. Before any of these sentences is reused in a funding application, a manuscript, or a press statement, its source is checked again on the day.
 
 ## The gap taxonomy
 
@@ -99,6 +115,8 @@ This section is permanent; each revision adds to it rather than replacing it, so
 
 **v0.1 (30 August 2026).** First publication. Three rows are recorded with no supporting evidence at all, and one row downgrades a claim the project could plausibly have made in good faith, that clinicians had reviewed the system, to what the review actually covered. Both are deliberate. A claims register whose first version shows every claim already supported would be evidence that the register was written to be shown rather than used.
 
+**v0.2 (22 October 2026).** Added the context-claims table, so that what this project says in public about the problem carries the same discipline as what it intends to say about the system. Two sentences that had been on the Day Eleven page since September without a source are now recorded with their actual status: one is an estimate, and one is supported only for adults in the United States. A third, about overnight clinic cover, has no source and is recorded as such. The Hospital Authority's 2025 announcement on generative AI, already on the page, is now recorded with its source.
+
 <p class="muted">Related note: <a href="{{ '/notes/2026-08-28-existence-is-not-content-auditing-my-own-governance-pack/' | relative_url }}">An index that lists a file is not evidence the file contains anything</a> applies the same instrument one layer down, to the documents a governance pack claims to hold.</p>
 
 <details markdown="1">
@@ -108,10 +126,10 @@ This section is permanent; each revision adds to it rather than replacing it, so
 | --- | --- |
 | Title | Claims and Evidence Register (project-derived, sanitized) |
 | Author | Xiaoyan Qian |
-| Public page version | v0.1 |
+| Public page version | v0.2 |
 | Publication date | 2026-08-30 |
 | Stable URL | https://xiaoyanqian.com/artifacts/claims-evidence-register/ |
 | Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Claims and Evidence Register (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/claims-evidence-register/ |
+| Suggested citation | Qian, X. (2026). *Claims and Evidence Register (project-derived, sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/claims-evidence-register/ |
 
 </details>

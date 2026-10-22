@@ -5,6 +5,10 @@ description: "A patient-facing medical digital twin that explains, refuses, esca
 image: /assets/img/day-eleven-social.jpg
 permalink: /twin/
 ---
+{% comment %}
+2026-10-22：社会问题句、"Care is moving too"一段与 For press 的背景句取自 对外话术卡 v0.2 §0 / §3b；
+页面上的数字已登记在 /artifacts/claims-evidence-register/ 的 Context claims。改句子先改话术卡，再改这里。
+{% endcomment %}
 
 <p class="kicker">Medical Digital Twin Initiative · Day Eleven</p>
 
@@ -14,7 +18,7 @@ permalink: /twin/
 
 <p class="badge badge-scenario">Illustrative interaction study · synthetic scenario · not a deployed system</p>
 
-<p class="byline">By <a href="{{ '/about/' | relative_url }}">Xiaoyan (Candice) Qian</a>, HKU-Avnet Joint AI Laboratory · first published 16 September 2026, updated 30 September 2026</p>
+<p class="byline">By <a href="{{ '/about/' | relative_url }}">Xiaoyan (Candice) Qian</a>, HKU-Avnet Joint AI Laboratory · first published 16 September 2026, updated 22 October 2026</p>
 
 <p class="cta-row">
   <a href="#film">Watch the film</a> <span class="muted">(9 min 40 s)</span> ·
@@ -83,7 +87,7 @@ It does not decide anything. It explains what it can see, refuses what belongs t
   </button></li>
 </ol>
 
-Mr Chan is fifty-eight and has type 2 diabetes. The film spends three months with him and his twin. Most days nothing happens, and by the ninth week he reads the pattern in his own numbers before the twin says anything: he is meant to need it less, not more. One night his glucose falls, and the alert reaches him and his care team at the same moment. In most clinics no one would see it overnight, and a system that knows this has to say so. Then he asks whether to stop his metformin, and the film shows that moment twice.
+Mr Chan is fifty-eight and has type 2 diabetes. The film spends three months with him and his twin. Most days nothing happens, and by the ninth week he reads the pattern in his own numbers before the twin says anything: he is meant to need it less, not more. One night his glucose falls, and the alert reaches him and his care team at the same moment. In the film, his clinic receives such alerts and flags. In the current Phase 1 design, they go to the patient and into the summary for his next visit, and reach a clinic sooner only where that clinic has agreed to receive them. In most clinics no one would see it overnight, and a system that knows this has to say so. Then he asks whether to stop his metformin, and the film shows that moment twice.
 
 In the closing sequence the condition changes from diabetes to hypertension, heart failure, and chronic kidney disease, and the governance layer stays fixed. That is the design intent: the layer is built once and configured for each condition.
 
@@ -95,9 +99,13 @@ The danger is rarely an answer that sounds wrong. A general-purpose assistant is
 
 That is why accuracy alone cannot tell you whether a patient-facing medical AI is safe. Safety here is better understood as scope, refusal, escalation, and record: four properties that can be inspected and that someone can be held accountable for. A refusal also has to hand something back, or it closes a door on someone. After a year of use, a good system should leave a person better able to read their own numbers without it.
 
+I call the evidence for those four properties *behavioural assurance*: evidence of what a deployed system actually did, rather than what its model was shown to do before release. It shows whether the system kept to its validated scope, refused and escalated where it should have, and can be replayed afterwards.
+
 ## Why now, and why Hong Kong {#why-now}
 
 Hong Kong has moved from principle to practice. The Government has published guidance on ethical AI and on generative AI, and in February 2025 the Hospital Authority announced that generative AI would draft medical reports in six public hospitals from the following month, with every report checked and authorized by a doctor.
+
+Care is moving too. In March 2026 the Government announced that the Chronic Disease Co-Care Pilot Scheme, which had passed 200,000 participants, would be regularised, and launched a Primary Healthcare Co-care Network that aims to reach about 700,000 people in its first five years. It also said it would gradually invite suitable patients from Hospital Authority Family Medicine Clinics to join the network's services ([Government press release, 13 March 2026](https://www.info.gov.hk/gia/general/202603/13/P2026031300680.htm)). As diabetes and hypertension care moves to family doctors and the community, patients still spend most of the time between visits making sense of their own data and deciding for themselves when to go back to a doctor. More data alone will not close that gap. Replying to the Legislative Council in 2025, the Government noted that the Hospital Authority cared for more than 658,000 people with diabetes in 2024, and that giving all of them continuous glucose monitors would overload healthcare staff with readings and add several billion dollars a year ([LegCo reply, 16 July 2025](https://www.info.gov.hk/gia/general/202507/16/P2025071600591.htm)).
 
 The next step is AI that talks to patients directly, and for that I have found no standard form of evidence, here or elsewhere. How would a conversational medical AI show that it met the four properties above, with a record that lets a reviewer replay a past answer? A 2026 article in *npj Digital Medicine* is titled "[Innovating global regulatory frameworks for generative AI in medical devices is an urgent priority](https://doi.org/10.1038/s41746-026-02552-2)". The expectations these systems will be held to are being set now, and it is far cheaper to shape them before the systems reach patients than after.
 
@@ -159,7 +167,7 @@ This was made to be argued with while the design can still change. Email is the 
 <a href="{{ '/assets/press/day-eleven-still-01-governed-vs-ungoverned.jpg' | relative_url }}">1 · governed and ungoverned, side by side</a> ·
 <a href="{{ '/assets/press/day-eleven-still-02-permission-strip.jpg' | relative_url }}">2 · the permission strip</a>.
 Both stills carry the synthetic-scenario and prototype notices within the image; please keep them visible.
-Please describe the film as an illustrative interaction study from a pre-deployment research prototype, using a fictional patient and synthetic data. It is not a diagnostic system and is not in clinical use.
+Please describe the film as an illustrative interaction study from a pre-deployment research prototype, using a fictional patient and synthetic data. It is not a diagnostic system and is not in clinical use. Please do not describe it as a monitoring service: in the current design, alerts go to the patient, and reach a clinic only where that clinic has agreed to receive them. If you need one sentence of context: Hong Kong is moving diabetes and hypertension care to family doctors and the community, but for most of the time between visits, patients still have to make sense of their own data and decide for themselves when to go back to a doctor.
 </p>
 
 <p class="muted">

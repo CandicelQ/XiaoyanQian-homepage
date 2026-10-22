@@ -68,6 +68,7 @@ ARCHIVE_URLS=(
   "https://xiaoyanqian.com/twin/"
   "https://xiaoyanqian.com/writing/"
   "https://xiaoyanqian.com/notes/"
+  "https://xiaoyanqian.com/artifacts/claims-evidence-register/"
 )
 
 if [ "$ARCHIVE" = "0" ]; then
