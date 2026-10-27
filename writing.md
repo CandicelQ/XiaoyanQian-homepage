@@ -15,7 +15,7 @@ Full publication list: <a href="https://scholar.google.com/citations?user=XNdT5E
 </p>
 
 ## Anchor: accountable patient-facing interpretation
-<p class="badge badge-published">Viewpoint · submitted to The Lancet Digital Health, October 2026</p>
+<p class="badge badge-published">Viewpoint · submitted</p>
 
 **Beyond digital replicas: clinical governance for patient-facing conversational digital twins**
 

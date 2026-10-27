@@ -61,7 +61,7 @@ This is my main project. At the HKU-Avnet Joint AI Laboratory, I lead both the e
 
 <a id="clinical-review"></a>**External clinical review.** The governance framing is no longer only my own voice. The project charter has been externally reviewed, and in August 2026 the Phase 1 boundary and escalation rules were reviewed in writing by a primary-care clinician with no role in the project: the boundary was sharpened from diagnostic-versus-non-diagnostic to describing-a-pattern-versus-judging-urgency, the escalation pathway was redesigned around the patient rather than a hard-coded recipient, and six quiet-harm categories from that review now sit in the evaluation harness as test categories. The review is processed as design input with a decision record, not filed as endorsement.
 
-<!-- DEMO PLACEHOLDER: the illustrative interaction film is live at /twin/ (Sept 2026). Still outstanding: the embedded five-layer architecture figure + a demo of the built system. Gate for those two only: (1) Lancet DH Viewpoint accepted/published, (2) demo polished, (3) reviewed for confidentiality. -->
+<!-- DEMO PLACEHOLDER: the illustrative interaction film is live at /twin/ (Sept 2026). Still outstanding: the embedded five-layer architecture figure + a demo of the built system. Gate for those two only: (1) Viewpoint accepted/published, (2) demo polished, (3) reviewed for confidentiality. -->
 
 **How I govern it** (Governance Pack, actively maintained; last substantive revision 22 August 2026; sanitized)
 
