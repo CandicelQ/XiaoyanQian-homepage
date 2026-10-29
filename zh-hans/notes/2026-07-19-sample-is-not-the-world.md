@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "在一家医院管用，不等于模型管用"
-date: 2026-07-04
+date: 2026-07-19
 lang: zh-Hans
 kind: note
 en_url: /notes/2026-07-19-sample-is-not-the-world/

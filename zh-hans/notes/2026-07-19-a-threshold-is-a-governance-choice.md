@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "风险阈值不是技术细节，而是治理选择"
-date: 2026-07-16
+date: 2026-07-19
 lang: zh-Hans
 kind: note
 en_url: /notes/2026-07-19-a-threshold-is-a-governance-choice/

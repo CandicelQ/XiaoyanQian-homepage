@@ -33,9 +33,9 @@ The structure and monitoring logic here are the ones I apply in pre-deployment g
 
 | What to monitor | Metric | Frequency | Owner | Alert threshold | Trigger action |
 | --- | --- | --- | --- | --- | --- |
-| Input drift | Age, condition mix, missingness, wearable and lab distributions (HR, HRV, sleep, blood pressure, HbA1c) | Monthly | Data team | Significant shift in any key variable | Start drift analysis |
+| Input drift | Age, condition mix, missingness, and the distributions of HR, HRV, sleep, blood pressure and HbA1c | Monthly | Data team | Significant shift in any key variable | Start drift analysis |
 | Output drift | High-risk trajectory flags per week | Weekly | Governance Lead | More than 50% above baseline | Notify clinical lead for review |
-| Performance drift | AUC, sensitivity, calibration for cardiovascular risk | Monthly | Vendor + data team | AUC down > 0.05 or sensitivity down > 15% | Submit performance report |
+| Performance drift | AUC, sensitivity, calibration for cardiovascular risk | Monthly | Vendor + data team | AUC down > 0.05 or sensitivity down > 15 percentage points | Submit performance report |
 | Calibration drift | Observed vs predicted cardiovascular events in the high-risk group | Monthly | Patient safety team | Predicted high-risk but observed rate keeps falling | Recalibrate or restrict use |
 | Fairness drift | Performance for women, older, and low-income or LMIC patients | Quarterly | Ethics / equity committee | Miss rate rises notably in any group | Subgroup audit |
 | Clinical burden | Clinician time handling flags | Monthly | Clinical unit lead | Rising alert-fatigue complaints | Adjust thresholds or workflow |

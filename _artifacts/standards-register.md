@@ -45,7 +45,7 @@ Building the twin, I kept citing external frameworks to justify design choices: 
 | Framework | Version (as adopted) | Internal controls mapped | Owner | Last review | Change impact if revised |
 | --- | --- | --- | --- | --- | --- |
 | FDA Predetermined Change Control Plan (PCCP) thinking | Version as cited in change-control case | Change-class table and pre-authorized envelope | Governance Lead | 2026-08-05 | Re-check change-class thresholds and re-validation triggers |
-| EU AI Act (transparency, Art. 50) | In force 2026-08-02 | Disclosure inventory; public disclosure summary | Governance Lead | 2026-08-05 | Re-check touchpoint disclosure list and machine-readable-marking obligations |
+| EU AI Act (transparency, Art. 50) | Applies from 2026-08-02 | Disclosure inventory; public disclosure summary | Governance Lead | 2026-08-05 | Re-check touchpoint disclosure list and machine-readable-marking obligations |
 | WHO guidance on AI for health | 2024 assessment | Liability allocation map | Governance Lead | 2026-08-05 | Re-check liability allocation assumptions |
 | NIST AI Risk Management Framework | 1.0 (revision pending; critical-infrastructure profile concept issued) | Risk register; KPI / monitoring register | Governance Lead | 2026-08-05 | On revision, re-map risk categories and monitoring controls; check whether a sector profile applies |
 | ISO/IEC 42001 (AI management system) | Not yet adopted (candidate) | To be mapped on adoption | Governance Lead | 2026-08-05 | If adopted, map management-system clauses to existing registers before claiming alignment |

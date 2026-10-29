@@ -36,7 +36,7 @@ So this register turns the same instrument on my own system's performance and cl
 | Project stage | Incubation / pre-deployment |
 | Scope | Performance, clinical, and patient-facing claims about one cardiometabolic digital twin; since v0.2, also the context claims the project makes in public about the problem it addresses |
 | Source | The internal claims-and-evidence review of the medical digital twin governance pack |
-| Inputs in scope | Wearable signals (heart rate, heart-rate variability, sleep), EHR laboratory values (HbA1c, lipids, blood pressure), and patient self-reports |
+| Inputs in scope | Wearable signals (heart rate, heart-rate variability, sleep), EHR laboratory values (HbA1c, lipids), blood pressure readings, and patient self-reports |
 | Last updated | 22 October 2026 |
 | Known limitation | Pre-deployment worked example. The claims are prospective wordings under review, not published statements; owners are role-level placeholders to be fixed to named individuals before any external pilot; no row below is certified as cleared |
 

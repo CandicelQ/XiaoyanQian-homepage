@@ -5,8 +5,8 @@ lang: zh-Hans
 kind: artifact
 en_url: /artifacts/public-disclosure-summary/
 permalink: /zh-hans/artifacts/public-disclosure-summary/
-evidence_type: "公开透明记录 · 已脱敏"
-evidence_class: scenario
+evidence_type: "项目衍生 · 公开透明记录 · 已脱敏"
+evidence_class: project
 summary: "一份用浅白语言写给公众的医疗数字孪生摘要，以公共部门的算法透明标准为准。它回答四个问题，任何公民、审查者或记者不必是用户也能读：它做什么，不做什么，谁负责，怎样提出关切。"
 author: "Xiaoyan Qian"
 version: "v0.2"
@@ -39,6 +39,8 @@ suggested_citation: "Qian, X. (2026). Public Disclosure Summary (ATRS-style, vol
 **v0.2（2026 年 8 月 22 日）。**0.1 版说，信息缺失或问题超出系统能安全处理的范围时，它会“直接说明这一点，而不是给出听起来很有把握的回答”（says so plainly rather than giving a confident-sounding answer）。这个措辞受到了质疑，而且没有经受住质疑。拒答是任何会停下来的系统都具备的属性：一个结束对话的系统，和一个会交还一些东西的系统，都满足这一点；可对提问的人来说，它们根本不是同一个系统。把停下来说成安全功能，却不说明这个人最后手里还剩什么，就是夸大了它。
 
 因此，0.2 版写明了一次拒答必须交还什么：什么无法确定，需要什么才能确定，以及这个人在此期间可以做些什么有用的事。内部记录对这一点的要求比本页描述的更严：这种交还是否完整，现在是一项受监测的指标，而不是一种设计意图；更进一步的问题，即长期使用会不会让一个人离开系统就更难自己应对，被记录为一项**尚不存在**的度量，而不是一项已经达标的度量。这条准则会在即将推出的工作中进一步展开，指出这个弱点的人会在其中被注明贡献。
+
+**标签更正（2026 年 10 月 29 日）。**本页原先标为情景推演，作品集的表格里却标为项目衍生。这份摘要是作为项目治理包的一部分来维护的，所以项目衍生才是准确的标签。摘要正文没有改动。
 
 ## 这说明了什么 {#what-this-demonstrates}
 

@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "可靠性不等于准确性：一个筛查数字藏住了什么"
-date: 2026-07-01
+date: 2026-07-19
 lang: zh-Hans
 kind: note
 en_url: /notes/2026-07-19-reliability-is-not-accuracy/

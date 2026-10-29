@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "平均有益的模型，仍可能傷害某個亞組"
-date: 2026-07-14
+date: 2026-07-19
 lang: zh-Hant
 kind: note
 en_url: /notes/2026-07-19-average-can-hide-subgroup-harm/

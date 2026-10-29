@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "部署 AI 後結果變好了，這並不能證明是 AI 讓結果變好的"
-date: 2026-07-09
+date: 2026-07-19
 lang: zh-Hant
 kind: note
 en_url: /notes/2026-07-19-better-after-is-not-better-because/

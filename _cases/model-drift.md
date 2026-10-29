@@ -8,7 +8,7 @@ summary: "A screening model's sensitivity fell from 88% to 70% six months after 
 
 ## Problem
 
-A medical AI model for screening high-risk patients performed well in its pilot phase. Six months after deployment, the clinical data distribution shifted and sensitivity dropped from 88% to 70%. Missed cases rose from 2 to 11 per month. The clinical team initially dismissed it as "the alerts being a bit less accurate."
+A medical AI model for screening high-risk patients performed well in its pilot phase. Six months after deployment, the clinical data distribution shifted and sensitivity dropped from 88% to 70%. Missed cases rose from 2 to 5 per month. The clinical team initially dismissed it as "the alerts being a bit less accurate."
 
 ## Key risks
 

@@ -77,10 +77,10 @@ That is the shift this artifact reflects: from *promising* good agent behaviour 
 | --- | --- |
 | Title | Agent Risk-Control Matrix (project-derived, sanitized) |
 | Author | Xiaoyan Qian |
-| Public page version | v0.1 |
+| Public page version | v0.2 |
 | Publication date | 2026-08-03 |
 | Stable URL | https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
 | Licence | All rights reserved |
-| Suggested citation | Qian, X. (2026). *Agent Risk-Control Matrix (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
+| Suggested citation | Qian, X. (2026). *Agent Risk-Control Matrix (project-derived, sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
 
 </details>

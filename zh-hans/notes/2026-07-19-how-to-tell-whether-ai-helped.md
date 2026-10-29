@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "怎样才能真正判断医疗 AI 有没有帮上忙"
-date: 2026-07-11
+date: 2026-07-19
 lang: zh-Hans
 kind: note
 en_url: /notes/2026-07-19-how-to-tell-whether-ai-helped/

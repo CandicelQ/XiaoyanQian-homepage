@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "今天可靠，明年不可靠"
-date: 2026-07-06
+date: 2026-07-19
 lang: zh-Hant
 kind: note
 en_url: /notes/2026-07-19-reliable-today-unreliable-next-year/

@@ -82,10 +82,10 @@ suggested_citation: "Qian, X. (2026). Agent Risk-Control Matrix (project-derived
 | --- | --- |
 | 标题 | Agent Risk-Control Matrix (project-derived, sanitized) |
 | 作者 | Xiaoyan Qian |
-| 公开页面版本 | v0.1 |
+| 公开页面版本 | v0.2 |
 | 发布日期 | 2026-08-03 |
 | 固定网址 | https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
 | 许可 | 保留所有权利 |
-| 建议引用格式 | Qian, X. (2026). *Agent Risk-Control Matrix (project-derived, sanitized)* (v0.1). https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
+| 建议引用格式 | Qian, X. (2026). *Agent Risk-Control Matrix (project-derived, sanitized)* (v0.2). https://xiaoyanqian.com/artifacts/agent-risk-control-matrix/ |
 
 </details>
