@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
+{%- assign nl = page.lang | default: 'en' -%}{%- assign t = site.data.i18n[nl] -%}
 <article class="case">
   <p class="badge badge-{{ page.evidence_class }}">{{ page.evidence_type }}</p>
   <h1>{{ page.title }}</h1>
   {% if page.decision_state %}
-  <p class="decision-state"><strong>Post-market decision state:</strong> {{ page.decision_state }}</p>
+  <p class="decision-state"><strong>{{ t.decision_state_label }}</strong> {{ page.decision_state }}</p>
   {% endif %}
   {{ content }}
-  <p class="backlink"><a href="{{ '/portfolio/' | relative_url }}">← Back to Governance Portfolio</a></p>
+  <p class="backlink"><a href="{{ t.prefix | append: '/portfolio/' | relative_url }}">{{ t.back_portfolio }}</a></p>
 </article>

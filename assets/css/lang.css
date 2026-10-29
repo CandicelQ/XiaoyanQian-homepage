@@ -1,0 +1,21 @@
+/* Language switcher (EN / 简 / 繁), top right of the header. */
+.header-inner { position: relative; }
+.lang-switch { position: absolute; top: 1.35rem; right: 1.25rem; display: flex; gap: 0.15rem; font-size: 0.82rem; line-height: 1; }
+.lang-switch a { color: var(--muted); padding: 0.3rem 0.45rem; border-radius: 4px; border: 1px solid transparent; }
+.lang-switch a:hover { color: var(--ink); border-color: var(--line); text-decoration: none; }
+.lang-switch a.active { color: var(--accent); font-weight: 700; border-color: var(--line); background: var(--accent-light); }
+/* Home hides the site name, so the nav sits on the first row; give the switcher its own row there. */
+body.home .lang-switch { position: static; align-self: flex-end; margin-bottom: -0.4rem; }
+
+/* Chinese pages: CJK fonts first, no Latin serif for headings. */
+html[lang="zh-Hans"] body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Segoe UI", Roboto, Arial, sans-serif; }
+html[lang="zh-Hant"] body { font-family: -apple-system, BlinkMacSystemFont, "PingFang HK", "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", "Segoe UI", Roboto, Arial, sans-serif; }
+html[lang^="zh"] h1, html[lang^="zh"] h2, html[lang^="zh"] h3,
+html[lang^="zh"] .hero .tagline, html[lang^="zh"] .feature-title, html[lang^="zh"] .subscribe-lead { font-family: inherit; }
+html[lang^="zh"] .site-role { letter-spacing: 0.04em; }
+html[lang^="zh"] main p, html[lang^="zh"] main li { line-height: 1.85; }
+
+@media (max-width: 600px) {
+  .lang-switch { top: 0.9rem; right: 0.9rem; }
+  .site-name { padding-right: 6.5rem; }
+}

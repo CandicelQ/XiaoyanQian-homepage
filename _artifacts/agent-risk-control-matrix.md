@@ -68,7 +68,7 @@ A control that is written down but never tested is not a control; it is a hope. 
 
 That is the shift this artifact reflects: from *promising* good agent behaviour to *evidencing* it. Voluntary assurance says "we are careful." Institutionalized control says "here is the gate, here is the test that proves the gate holds, here is the dashboard that watches it, and here is the log that proves it held on this date."
 
-<p class="muted">Related note: <a href="{{ '/notes/2026-07-22-from-promise-to-evidence-agent-governance/' | relative_url }}">From promise to evidence: what institutionalized agent governance actually asks for</a>.</p>
+<p class="muted">Related note: <a href="{{ '/notes/2026-07-23-from-promise-to-evidence-agent-governance/' | relative_url }}">From promise to evidence: what institutionalized agent governance actually asks for</a>.</p>
 
 <details markdown="1">
 <summary>Citation metadata</summary>
