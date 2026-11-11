@@ -58,7 +58,7 @@ body.home .site-name { display: none; }
 .hero h1 { font-size: 2.2rem; margin: 0 0 0.4rem; }
 .hero .tagline { font-size: 1.2rem; color: var(--accent); font-family: Georgia, serif; margin: 0 0 0.35rem; }
 .hero .tagline .sep { color: var(--muted); margin: 0 0.45rem; font-weight: 400; }
-.hero .tagline-plain { font-size: 1.02rem; color: var(--ink); margin: 0 0 0.6rem; }
+.hero .tagline-plain { font-size: 1.02rem; color: var(--ink); margin: 0 0 0.6rem; text-wrap: balance; }
 .hero .credential { font-size: 0.9rem; color: var(--muted); margin: 0 0 0.6rem; }
 .hero .proof-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem 0.55rem; margin: 0 0 1.1rem; padding: 0; }
 .hero .proof-row span { font-size: 0.82rem; font-weight: 600; color: var(--accent); background: #eef3f8; border: 1px solid var(--line); border-radius: 999px; padding: 0.2rem 0.7rem; }
