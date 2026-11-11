@@ -23,7 +23,7 @@ This artifact is drawn from the governance pack of the patient-facing cardiometa
 
 ## Why I built this (builder's perspective)
 
-Two things led here. The first is eight years of peer review for machine-learning venues, where the single most common defect is not a wrong method but a claim that has quietly outgrown the experiment underneath it: a result generalised past the setting it was measured in, a gain that no ablation attributes, a comparison run on a protocol the authors also designed. Nothing about that pattern is specific to machine learning. It is what happens whenever the party making a claim is also the party that chose how to test it.
+Two things led here. The first is more than five years of peer review for machine-learning venues, where the single most common defect is not a wrong method but a claim that has quietly outgrown the experiment underneath it: a result generalised past the setting it was measured in, a gain that no ablation attributes, a comparison run on a protocol the authors also designed. Nothing about that pattern is specific to machine learning. It is what happens whenever the party making a claim is also the party that chose how to test it.
 
 The second is closer to home. Earlier this month I audited my own governance pack and found that documents registered as evidence for other claims did not contain what they were registered as, and that two claims resting on them were therefore false. That audit worked on documents. It left the harder layer untouched, because a document can exist, be correctly named, and still describe a performance the data does not support.
 
