@@ -4,12 +4,14 @@ title: Home
 ---
 {% comment %}
 2026-10-22：Current focus 的"for people managing type 2 diabetes between clinic visits"与 Who I am 的 behavioural assurance 句取自 对外话术卡 v0.2 §0.3（身份切面）。改句子先改话术卡。
+2026-11-11：tagline-plain 一句取自话术卡 §0.3"身份短句"（整条线一句话，论文总规划 §14.2）；角色标语按用户要求保留。
 {% endcomment %}
 
 <div class="hero">
   <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Portrait of Xiaoyan (Candice) Qian">
   <h1>Xiaoyan (Candice) Qian</h1>
   <p class="tagline"><span class="role">High-Risk AI Governance</span><span class="sep">&times;</span><span class="role">AI System-Building</span></p>
+  <p class="tagline-plain">Deployed AI that outsiders can check, someone answers for, and someone can stop. Starting with medicine.</p>
   <p class="contact-row">
     <a href="mailto:qianxy10@connect.hku.hk">Email</a>
     <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a>

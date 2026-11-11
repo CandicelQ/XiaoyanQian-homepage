@@ -9,12 +9,14 @@ description: "Xiaoyan (Candice) Qian：高风险 AI 治理与 AI 系统构建。
 {% comment %}
 2026-10-23 简体中文版 v0.1，译自英文首页（HEAD 5110246）。改英文页时同步改这里与 zh-hant；措辞源头仍是 对外话术卡 v0.2。
 2026-10-24：站内链接改到中文版；联系标签按用户要求写 Email。
+2026-11-11：tagline-plain 一句取自话术卡 §0.3"身份短句"。
 {% endcomment %}
 
 <div class="hero">
   <img class="portrait" src="{{ '/assets/img/portrait.png' | relative_url }}" alt="Xiaoyan (Candice) Qian 的照片">
   <h1>Xiaoyan (Candice) Qian</h1>
   <p class="tagline"><span class="role">高风险 AI 治理</span><span class="sep">&times;</span><span class="role">AI 系统构建</span></p>
+  <p class="tagline-plain">让上线后的 AI 能被外人核查、有人负责、能被叫停。从医疗开始。</p>
   <p class="contact-row">
     <a href="mailto:qianxy10@connect.hku.hk">Email</a>
     <a href="https://scholar.google.com/citations?user=XNdT5EMAAAAJ">Google Scholar</a>
